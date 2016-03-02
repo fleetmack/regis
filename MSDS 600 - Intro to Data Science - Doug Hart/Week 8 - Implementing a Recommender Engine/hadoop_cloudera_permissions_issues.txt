@@ -1,0 +1,7 @@
+In the past there have occasionally been permission problems with writing to directories.  Sometimes these problems have been overcame with judicious use of sudo.  sudo, followed by a command, causes the command to be executed with so-called root permissions.  I do not recommend that you run everything with sudo, but if you run into a permission problem preface the command with sudo.  For example, if
+
+hadoop fs -mkdir /home/cloudera/data
+
+does not work, then try
+
+sudo hadoop fs -mkdir /home/cloudera/data

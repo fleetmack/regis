@@ -1,0 +1,15 @@
+Simple is a simple word count program in Spark. also I included a link to learn more about the map and flatmap function. goodluck.
+
+scala> val f = sc.textFile("spark-1.5.0/README.md") #create base RDD that reads the spark readme file. There will be a string for each line in the readme file
+
+scala> val wc = f.flatMap(l => l.split(" ")).map(word => (word,1)).reduceByKey(_+ _) # transform the base RDD. Code Notes: for every line in the readme file cut into keywords and make space delimited. Then map it to (keyword, 1) as a tuple. Then reduce the key and add all the 1’s to get a count for that keyword. Note: flatMap is a function that returns a sequence for each element in the list, and flattening the results into the original list.
+
+scala> wc.toDebugString # shows lineage graph what is being computed
+
+scala> wc.saveAsTextFile("wc_out") #creates a partition file called wc_out
+
+cat wc_out/part-00000 #open second terminal and check for wc_out file and to view your results
+
+hadoop@1node ~]$ cat wc_out/part-00000 | grep Spark   #use this code to see how many times Spark is listed
+
+http://www.brunton-spall.co.uk/post/2011/12/02/map-map-and-flatmap-in-scala/

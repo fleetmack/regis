@@ -1,0 +1,939 @@
+Bryan Mack
+Assignment 2 - Week 6
+Chapter 6 Hands-On Assigments
+*** note: Log on as username scott for this one
+DROP VIEW bb_basketitem_vu
+*
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP VIEW bb_ship_vu
+*
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+DROP TABLE bb_audit_logon CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Sequence created.
+
+
+Table altered.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+12 rows updated.
+
+
+2 rows updated.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+create view bb_basketitem_vu as
+            *
+ERROR at line 1:
+ORA-01031: insufficient privileges 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row updated.
+
+
+Sequence created.
+
+
+14 rows updated.
+
+CREATE OR REPLACE VIEW bb_ship_vu
+                       *
+ERROR at line 1:
+ORA-01031: insufficient privileges 
+
+
+
+1 row created.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table altered.
+
+
+Commit complete.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+2 rows updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table created.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row created.
+
+
+Table altered.
+
+
+1 row updated.
+
+CREATE TABLE bb_sales_sum
+             *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Warning: Procedure created with compilation errors.
+
+
+Warning: Procedure created with compilation errors.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Function created.
+
+
+Function created.
+
+
+Function created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Package created.
+
+
+Package body created.
+
+****************************************
+****************************************
+Assignment 9-1 Creating a trigger to address product restocking
+****************************************
+****************************************
+9-1:1 try to write the code
+9-1:2 open sql*plus
+9-1:3 open c9reorder.sql file
+9-1:4 review the code
+9-1:5 run the code
+
+Trigger created.
+
+9-1:6 test the data
+
+     STOCK    REORDER                                                                                                                                                                                                                                                                                       
+---------- ----------                                                                                                                                                                                                                                                                                       
+        26         25                                                                                                                                                                                                                                                                                       
+
+9-1:7 run an update and verify the trigger performed
+
+1 row updated.
+
+
+ IDREQUEST  IDPRODUCT DTREQUEST DTRECD          COST        QTY   IDVENDER                                                                                                                                                                                                                                  
+---------- ---------- --------- --------- ---------- ---------- ----------                                                                                                                                                                                                                                  
+         1          4 15-JUN-08                              25                                                                                                                                                                                                                                             
+
+9-1:8 rollback
+
+Rollback complete.
+
+9-1:9 disable trigger for future projects
+
+Trigger altered.
+
+****************************************
+****************************************
+Assignment 9-2 Updating stock information when a product request is filled
+****************************************
+****************************************
+9-2:1 insert a row
+
+1 row created.
+
+
+Commit complete.
+
+9-2:2 write the trigger
+
+Trigger created.
+
+9-2:3 query the stock and reorder data
+
+     STOCK    REORDER                                                                                                                                                                                                                                                                                       
+---------- ----------                                                                                                                                                                                                                                                                                       
+        41         45                                                                                                                                                                                                                                                                                       
+
+
+ IDREQUEST  IDPRODUCT DTREQUEST DTRECD          COST        QTY   IDVENDER                                                                                                                                                                                                                                  
+---------- ---------- --------- --------- ---------- ---------- ----------                                                                                                                                                                                                                                  
+         3          5 15-JUN-08                              45                                                                                                                                                                                                                                             
+
+9-2:4 fire the trigger with an update statement
+
+1 row updated.
+
+9-2:5 query to show the trigger ran
+
+ IDREQUEST  IDPRODUCT DTREQUEST DTRECD          COST        QTY   IDVENDER                                                                                                                                                                                                                                  
+---------- ---------- --------- --------- ---------- ---------- ----------                                                                                                                                                                                                                                  
+         3          5 15-JUN-08 15-JUN-08        225         45                                                                                                                                                                                                                                             
+
+Holy s**t do I hate being a Royals fan, really? 7 runs given up in the 7th to the RANGERS?!??!!
+
+     STOCK    REORDER                                                                                                                                                                                                                                                                                       
+---------- ----------                                                                                                                                                                                                                                                                                       
+        86         45                                                                                                                                                                                                                                                                                       
+
+
+Rollback complete.
+
+****************************************
+****************************************
+Assignment 9-3 Updating the stock level if a product fulfillment is cancelled
+****************************************
+****************************************
+9-3:1 Fix the trigger
+
+Trigger created.
+
+9-3:2 insert test data
+
+1 row created.
+
+
+1 row updated.
+
+
+Commit complete.
+
+(no step) verify the pre-trigger-execution data
+
+     STOCK    REORDER                                                                                                                                                                                                                                                                                       
+---------- ----------                                                                                                                                                                                                                                                                                       
+        86         45                                                                                                                                                                                                                                                                                       
+
+
+ IDREQUEST  IDPRODUCT DTREQUEST DTRECD          COST        QTY   IDVENDER                                                                                                                                                                                                                                  
+---------- ---------- --------- --------- ---------- ---------- ----------                                                                                                                                                                                                                                  
+         4          5 15-JUN-08 15-JUN-03        225         45                                                                                                                                                                                                                                             
+
+9-3:3 fire trigger
+
+1 row updated.
+
+verify the trigger worked
+
+     STOCK    REORDER                                                                                                                                                                                                                                                                                       
+---------- ----------                                                                                                                                                                                                                                                                                       
+        41         45                                                                                                                                                                                                                                                                                       
+
+
+ IDREQUEST  IDPRODUCT DTREQUEST DTRECD          COST        QTY   IDVENDER                                                                                                                                                                                                                                  
+---------- ---------- --------- --------- ---------- ---------- ----------                                                                                                                                                                                                                                  
+         4          5 15-JUN-08                  225         45                                                                                                                                                                                                                                             
+
+9-3:4 disable the trigger
+
+Trigger altered.
+
+****************************************
+****************************************
+Assignment 9-4 Updating stock levels when an order is cancelled
+****************************************
+****************************************
+
+Trigger created.
+
+pre-test the values of basket 6 and the order for basket 6
+
+IDBASKETITEM  IDPRODUCT      PRICE   QUANTITY   IDBASKET    OPTION1    OPTION2                                                                                                                                                                                                                              
+------------ ---------- ---------- ---------- ---------- ---------- ----------                                                                                                                                                                                                                              
+          22         10         10          2          6          2          4                                                                                                                                                                                                                              
+          23          2     129.99          1          6                                                                                                                                                                                                                                                    
+
+
+  IDBASKET   QUANTITY  IDSHOPPER ORDERPLACED   SUBTOTAL      TOTAL   SHIPPING        TAX DTCREATED      PROMO SHIPFIRSTN SHIPLASTNAME         SHIPADDRESS                              SHIPCITY             SH SHIPZIPCODE     SHIPPHONE  SHIPFAX    SHIPEMAIL                 BILLFIRSTN                   
+---------- ---------- ---------- ----------- ---------- ---------- ---------- ---------- --------- ---------- ---------- -------------------- ---------------------------------------- -------------------- -- --------------- ---------- ---------- ------------------------- ----------                   
+BILLLASTNAME         BILLADDRESS                              BILLCITY             BI BILLZIPCODE     BILLPHONE  BILLFAX    BILLEMAIL                 DTORDERED SHIPPROVINCE         SHIPCOUNTRY          BILLPROVINCE         BILLCOUNTRY          C CARDNUMBER           EX EXPY CARDNAME                 
+-------------------- ---------------------------------------- -------------------- -- --------------- ---------- ---------- ------------------------- --------- -------------------- -------------------- -------------------- -------------------- - -------------------- -- ---- -------------------------
+S S                                                                                                                                                                                                                                                                                                         
+- -                                                                                                                                                                                                                                                                                                         
+         6          3         22           1     149.99     161.74          5       6.75 01-MAR-07          0 Margaret   Somner               287 Walnut Drive                         Chesapeake           VA 23321                                                                                        
+                                                                                                                                                      01-MAR-07                                                                                                                                             
+N N                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                            
+
+
+ IDPRODUCT      STOCK                                                                                                                                                                                                                                                                                       
+---------- ----------                                                                                                                                                                                                                                                                                       
+         2         15                                                                                                                                                                                                                                                                                       
+        10         50                                                                                                                                                                                                                                                                                       
+
+9-4:1 use this insert to test the trigger you just created
+
+1 row created.
+
+post-test the values
+
+IDBASKETITEM  IDPRODUCT      PRICE   QUANTITY   IDBASKET    OPTION1    OPTION2                                                                                                                                                                                                                              
+------------ ---------- ---------- ---------- ---------- ---------- ----------                                                                                                                                                                                                                              
+          22         10         10          2          6          2          4                                                                                                                                                                                                                              
+          23          2     129.99          1          6                                                                                                                                                                                                                                                    
+
+
+  IDBASKET   QUANTITY  IDSHOPPER ORDERPLACED   SUBTOTAL      TOTAL   SHIPPING        TAX DTCREATED      PROMO SHIPFIRSTN SHIPLASTNAME         SHIPADDRESS                              SHIPCITY             SH SHIPZIPCODE     SHIPPHONE  SHIPFAX    SHIPEMAIL                 BILLFIRSTN                   
+---------- ---------- ---------- ----------- ---------- ---------- ---------- ---------- --------- ---------- ---------- -------------------- ---------------------------------------- -------------------- -- --------------- ---------- ---------- ------------------------- ----------                   
+BILLLASTNAME         BILLADDRESS                              BILLCITY             BI BILLZIPCODE     BILLPHONE  BILLFAX    BILLEMAIL                 DTORDERED SHIPPROVINCE         SHIPCOUNTRY          BILLPROVINCE         BILLCOUNTRY          C CARDNUMBER           EX EXPY CARDNAME                 
+-------------------- ---------------------------------------- -------------------- -- --------------- ---------- ---------- ------------------------- --------- -------------------- -------------------- -------------------- -------------------- - -------------------- -- ---- -------------------------
+S S                                                                                                                                                                                                                                                                                                         
+- -                                                                                                                                                                                                                                                                                                         
+         6          3         22           0     149.99     161.74          5       6.75 01-MAR-07          0 Margaret   Somner               287 Walnut Drive                         Chesapeake           VA 23321                                                                                        
+                                                                                                                                                      01-MAR-07                                                                                                                                             
+N N                                                                                                                                                                                                                                                                                                         
+                                                                                                                                                                                                                                                                                                            
+
+
+ IDPRODUCT      STOCK                                                                                                                                                                                                                                                                                       
+---------- ----------                                                                                                                                                                                                                                                                                       
+         2         16                                                                                                                                                                                                                                                                                       
+        10         53                                                                                                                                                                                                                                                                                       
+
+****************************************
+****************************************
+Assignment 9-5 Processing discounts
+****************************************
+****************************************
+create the trigger
+
+Package created.
+
+
+PL/SQL procedure successfully completed.
+
+
+Trigger created.
+
+show pre-trigger status
+N                                                                                                                                                                                                                                                                                                           
+
+PL/SQL procedure successfully completed.
+
+fire the trigger
+
+1 row updated.
+
+post-test the trigger by showing data
+Y                                                                                                                                                                                                                                                                                                           
+
+PL/SQL procedure successfully completed.
+
+set orderplaced back to 0 and test packaged variable
+
+1 row updated.
+
+N                                                                                                                                                                                                                                                                                                           
+
+PL/SQL procedure successfully completed.
+
+disable the trigger
+
+Trigger altered.
+
+****************************************
+****************************************
+Assignment 9-6 Using triggers to maintain referential integrity
+****************************************
+****************************************
+create trigger
+
+Trigger created.
+
+test trigger
+
+1 row updated.
+
+rollback the data
+
+Rollback complete.
+
+disable the trigger
+
+Trigger altered.
+
+****************************************
+****************************************

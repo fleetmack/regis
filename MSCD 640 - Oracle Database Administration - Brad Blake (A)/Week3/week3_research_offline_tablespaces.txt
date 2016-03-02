@@ -1,0 +1,23 @@
+3. What are some reasons to take a tablespace offline? How might that affect the users?
+
+A tablespace may be taken off line in order to:
+--disable an application which accesses that tablespace while the app. is updated
+--make part of the database inaccessible while keeping the rest active
+--perform a cold backup
+--recover data from a tablespace
+
+Note: You can never take the SYSTEM tablespace offline as access to the data dictionary is required.
+
+It should also be noted that tablespaces cannot be taken offline if any rollback segments
+contained in it are in use.  Also, if the database is shutdown while the tablespace is offline,
+upon restarting the database the tablespace will NOT come back online!
+
+This affects the users in multiple ways.  As far as selection goes, users cannot see any data
+contained within the tablespace while it is offline, nor can hey complete new transactions on 
+the data.  Any transactions which haven't been committed but were completed aren't affected
+in that they will be committed from the rollback data.
+
+
+http://www.lsbu.ac.uk/oracle/oracle7/server/doc/SCN73/ch4.htm
+
+http://www.lsbu.ac.uk/oracle/oracle7/server/doc/SCN73/ch4.htm

@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* CSS Print Document for CS436 */
+
+#text-bubble {
+	display: none;
+	visibility: hidden;
+    }
+
+#footer-brackets {
+	display: none;
+	visibility: hidden;
+    }

@@ -1,0 +1,1707 @@
+Bryan Mack
+Assignment 2 - Week 5
+Chapter 6 Hands-On Assigments
+
+View dropped.
+
+
+View dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Sequence created.
+
+
+Table altered.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+12 rows updated.
+
+
+2 rows updated.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+View created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row updated.
+
+
+Sequence created.
+
+
+14 rows updated.
+
+
+View created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table altered.
+
+
+Commit complete.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+2 rows updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table created.
+
+****************************************
+****************************************
+Assignment 7-1: Creating a package
+****************************************
+****************************************
+7-1:1 Locate assignment07-01.txt - hey, i found it!
+7-1:2 open file
+7-1:3 copy and paste code
+7-1:4 open sql plus
+7-1:5 run code - shoudl create an error
+
+Package created.
+
+
+Warning: Package Body created with compilation errors.
+
+7-1:6 show the errors
+Errors for PACKAGE BODY ORDER_INFO_PKG:
+
+LINE/COL ERROR                                                                                                                                                                                                                                                                                              
+-------- -----------------------------------------------------------------                                                                                                                                                                                                                                  
+5/12     PLS-00323: subprogram or cursor 'BASKET_INFO_PP' is declared in a                                                                                                                                                                                                                                  
+         package specification and must be defined in the package body                                                                                                                                                                                                                                      
+                                                                                                                                                                                                                                                                                                            
+7-1:7 fix the procedure
+7-1:8 re-run the package correctly
+
+Package created.
+
+
+Package body created.
+
+****************************************
+****************************************
+Assignment 7-2: Using packaged program units
+****************************************
+****************************************
+7-2:1 open sql plus
+7-2:2 create the order_info_pkg
+
+Package created.
+
+
+Package body created.
+
+7-2:3 invoke the procedure and the function within an anonymous block
+
+PL/SQL procedure successfully completed.
+
+Shopper: 25 Date: 19-FEB-07                                                                                                                                                                                                                                                                                 
+
+PL/SQL procedure successfully completed.
+
+7-2:4 call the function using a select statement
+NOTE: this shows up blank but if you cut and paste my code into sql plus the result shows up
+
+ORDER_INFO_PKG.SHIP_NAME_PF(IDBASKET)                                                                                                                                                                                                                                                                       
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+                                                                                                                                                                                                                                                                                                            
+
+****************************************
+****************************************
+Assignment 7-3 Creating a package with private program units
+****************************************
+****************************************
+7-3:1 open code and review it
+7-3:2 modify to add basket_info_pp procedure
+
+Package created.
+
+
+Package body created.
+
+7-3:3 execute the basket_info_pp procedure
+NOTE: below the name isn't showing in the results, but if you cut/paste my code into sql plus it shows up
+
+PL/SQL procedure successfully completed.
+
+Shopper ID: 25 Date Ordered: 19-FEB-07 Name:                                                                                                                                                                                                                                                                
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 7-4 Using packaged variables
+****************************************
+****************************************
+7-4:1 creat a function that'll verify an input shopper id and such
+
+Function created.
+
+7-4:2 create host variable to hold function value
+7-4:3 execute using user: gma1 pswd: goofy
+
+PL/SQL procedure successfully completed.
+
+7-4:4 print the value
+
+G_CK                                                                                                                                                                                                                                                                                                        
+--------------------------------                                                                                                                                                                                                                                                                            
+Y                                                                                                                                                                                                                                                                                                           
+
+7-4:5 place function in package and add other 2 variables
+
+Package created.
+
+
+Package body created.
+
+7-4:6 use host variable to test packaged procedure using "gma1" and "goofy"
+
+PL/SQL procedure successfully completed.
+
+
+G_CK2                                                                                                                                                                                                                                                                                                       
+--------------------------------                                                                                                                                                                                                                                                                            
+Y                                                                                                                                                                                                                                                                                                           
+
+7-4:7 use dbms_output to show the packaged variable values
+Shopper ID: 26 Shopper Last 3 of Zip: 277                                                                                                                                                                                                                                                                   
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 7-5 Packaging overloading
+****************************************
+****************************************
+
+Package created.
+
+
+Package body created.
+
+test it with user id 23
+
+PL/SQL procedure successfully completed.
+
+
+FNAME2                                                                                                                                                                                                                                                                                                      
+--------------------------------                                                                                                                                                                                                                                                                            
+Kenny                                                                                                                                                                                                                                                                                                       
+
+
+LNAME2                                                                                                                                                                                                                                                                                                      
+--------------------------------                                                                                                                                                                                                                                                                            
+Ratman                                                                                                                                                                                                                                                                                                      
+
+
+O_CITY2                                                                                                                                                                                                                                                                                                     
+--------------------------------                                                                                                                                                                                                                                                                            
+South Park                                                                                                                                                                                                                                                                                                  
+
+
+O_STATE2                                                                                                                                                                                                                                                                                                    
+--------------------------------                                                                                                                                                                                                                                                                            
+NC                                                                                                                                                                                                                                                                                                          
+
+
+O_PHONE2                                                                                                                                                                                                                                                                                                    
+--------------------------------                                                                                                                                                                                                                                                                            
+9015680902                                                                                                                                                                                                                                                                                                  
+
+
+O_EMAIL2                                                                                                                                                                                                                                                                                                    
+--------------------------------                                                                                                                                                                                                                                                                            
+ratboy@msn.net                                                                                                                                                                                                                                                                                              
+
+test it with Ratman
+
+PL/SQL procedure successfully completed.
+
+Kenny Ratman South Park NC 9015680902 ratboy@msn.net                                                                                                                                                                                                                                                        
+
+PL/SQL procedure successfully completed.
+
+
+FNAME2                                                                                                                                                                                                                                                                                                      
+--------------------------------                                                                                                                                                                                                                                                                            
+Kenny                                                                                                                                                                                                                                                                                                       
+
+
+LNAME2                                                                                                                                                                                                                                                                                                      
+--------------------------------                                                                                                                                                                                                                                                                            
+Ratman                                                                                                                                                                                                                                                                                                      
+
+
+O_CITY2                                                                                                                                                                                                                                                                                                     
+--------------------------------                                                                                                                                                                                                                                                                            
+South Park                                                                                                                                                                                                                                                                                                  
+
+
+O_STATE2                                                                                                                                                                                                                                                                                                    
+--------------------------------                                                                                                                                                                                                                                                                            
+NC                                                                                                                                                                                                                                                                                                          
+
+
+O_PHONE2                                                                                                                                                                                                                                                                                                    
+--------------------------------                                                                                                                                                                                                                                                                            
+9015680902                                                                                                                                                                                                                                                                                                  
+
+
+O_EMAIL2                                                                                                                                                                                                                                                                                                    
+--------------------------------                                                                                                                                                                                                                                                                            
+ratboy@msn.net                                                                                                                                                                                                                                                                                              
+
+****************************************
+****************************************
+Assignment 7-6 Creating a package with specification only
+****************************************
+****************************************
+
+Package created.
+
+
+Package body created.
+
+pv_tax_nc = .035                                                                                                                                                                                                                                                                                            
+pv_tax_tx = .05                                                                                                                                                                                                                                                                                             
+pv_tax_tn = .02                                                                                                                                                                                                                                                                                             
+
+PL/SQL procedure successfully completed.
+
+
+View dropped.
+
+
+View dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Table dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Sequence dropped.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Sequence created.
+
+
+Table altered.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+12 rows updated.
+
+
+2 rows updated.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Sequence created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+View created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row updated.
+
+
+Sequence created.
+
+
+14 rows updated.
+
+
+View created.
+
+
+1 row created.
+
+
+Table created.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table altered.
+
+
+Commit complete.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+2 rows updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+Table created.
+
+
+1 row updated.
+
+
+1 row updated.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Warning: Procedure created with compilation errors.
+
+
+Warning: Procedure created with compilation errors.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Function created.
+
+
+Function created.
+
+
+Function created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Procedure created.
+
+
+Package created.
+
+
+Package body created.
+
+****************************************
+****************************************
+Assignment 8-1 Reviewing dependency information in the data dictionary
+****************************************
+****************************************
+8-1:1 open sql plus and describe user_objects
+ Name                                                                                                                                                                          Null?    Type
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------- --------------------------------------------------------------------------------------------------------------------
+ OBJECT_NAME                                                                                                                                                                            VARCHAR2(128)
+ SUBOBJECT_NAME                                                                                                                                                                         VARCHAR2(30)
+ OBJECT_ID                                                                                                                                                                              NUMBER
+ DATA_OBJECT_ID                                                                                                                                                                         NUMBER
+ OBJECT_TYPE                                                                                                                                                                            VARCHAR2(19)
+ CREATED                                                                                                                                                                                DATE
+ LAST_DDL_TIME                                                                                                                                                                          DATE
+ TIMESTAMP                                                                                                                                                                              VARCHAR2(19)
+ STATUS                                                                                                                                                                                 VARCHAR2(7)
+ TEMPORARY                                                                                                                                                                              VARCHAR2(1)
+ GENERATED                                                                                                                                                                              VARCHAR2(1)
+ SECONDARY                                                                                                                                                                              VARCHAR2(1)
+
+8-1:2
+
+OBJECT_NAME                                                                                                                      STATUS  TIMESTAMP                                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------- ------- -------------------                                                                                                                                                
+PSTUBT                                                                                                                           VALID   2005-08-30:13:55:15                                                                                                                                                
+PSTUB                                                                                                                            VALID   2005-08-30:13:55:15                                                                                                                                                
+SUBPTXT2                                                                                                                         VALID   2005-08-30:13:55:15                                                                                                                                                
+SUBPTXT                                                                                                                          VALID   2005-08-30:13:55:15                                                                                                                                                
+ODCIINDEXINFOFLAGSDUMP                                                                                                           VALID   2005-08-30:13:56:04                                                                                                                                                
+ODCIINDEXINFODUMP                                                                                                                VALID   2005-08-30:13:56:04                                                                                                                                                
+ODCIPREDINFODUMP                                                                                                                 VALID   2005-08-30:13:56:04                                                                                                                                                
+ODCIQUERYINFODUMP                                                                                                                VALID   2005-08-30:13:56:04                                                                                                                                                
+ODCICOLINFODUMP                                                                                                                  VALID   2005-08-30:13:56:04                                                                                                                                                
+ODCISTATSOPTIONSDUMP                                                                                                             VALID   2005-08-30:13:56:04                                                                                                                                                
+ODCIENVDUMP                                                                                                                      VALID   2005-08-30:13:56:04                                                                                                                                                
+
+OBJECT_NAME                                                                                                                      STATUS  TIMESTAMP                                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------- ------- -------------------                                                                                                                                                
+ODCIINDEXALTEROPTIONDUMP                                                                                                         VALID   2005-08-30:13:56:04                                                                                                                                                
+ODCIINDEXCALLPROPERTYDUMP                                                                                                        VALID   2005-08-30:13:56:04                                                                                                                                                
+ODCITABFUNCINFODUMP                                                                                                              VALID   2005-08-30:13:56:04                                                                                                                                                
+LOGMNR_KRVRDLUID3                                                                                                                VALID   2005-08-30:13:59:22                                                                                                                                                
+LOGMNR_KRVRDREPDICT3                                                                                                             VALID   2005-08-30:13:59:22                                                                                                                                                
+DBMS_LOGMNR_FFVTOLOGMNRT                                                                                                         VALID   2005-08-30:13:59:22                                                                                                                                                
+LOGMNR_KRVRDA_TEST_APPLY                                                                                                         VALID   2005-08-30:13:59:22                                                                                                                                                
+DBMS_LOGMNR_OCTOLOGMNRT                                                                                                          VALID   2005-08-30:13:59:22                                                                                                                                                
+LOGMNR_GTLO3                                                                                                                     VALID   2005-08-30:13:59:33                                                                                                                                                
+AW_DROP_PROC                                                                                                                     VALID   2005-08-30:14:04:33                                                                                                                                                
+LOAD_UNDO_STAT                                                                                                                   VALID   2005-08-30:14:08:50                                                                                                                                                
+
+OBJECT_NAME                                                                                                                      STATUS  TIMESTAMP                                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------- ------- -------------------                                                                                                                                                
+RESET_UNDO_STAT                                                                                                                  VALID   2005-08-30:14:08:50                                                                                                                                                
+DBMS_FEATURE_PARTITION_USER                                                                                                      VALID   2005-08-30:14:11:25                                                                                                                                                
+DBMS_FEATURE_PARTITION_SYSTEM                                                                                                    VALID   2005-08-30:14:11:25                                                                                                                                                
+DBMS_FEATURE_PLSQL_NATIVE                                                                                                        VALID   2005-08-30:14:11:25                                                                                                                                                
+DBMS_FEATURE_RAC                                                                                                                 VALID   2005-08-30:14:11:25                                                                                                                                                
+DBMS_FEATURE_TEST_PROC_1                                                                                                         VALID   2005-08-30:14:11:25                                                                                                                                                
+DBMS_FEATURE_TEST_PROC_2                                                                                                         VALID   2005-08-30:14:11:25                                                                                                                                                
+DBMS_FEATURE_TEST_PROC_3                                                                                                         VALID   2005-08-30:14:11:25                                                                                                                                                
+DBMS_FEATURE_TEST_PROC_4                                                                                                         VALID   2005-08-30:14:11:25                                                                                                                                                
+DBMS_FEATURE_TEST_PROC_5                                                                                                         VALID   2005-08-30:14:11:26                                                                                                                                                
+DBMS_FEATURE_REGISTER_ALLFEAT                                                                                                    VALID   2005-08-30:14:11:26                                                                                                                                                
+
+OBJECT_NAME                                                                                                                      STATUS  TIMESTAMP                                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------- ------- -------------------                                                                                                                                                
+DBMS_FEATURE_REGISTER_ALLHWM                                                                                                     VALID   2005-08-30:14:11:26                                                                                                                                                
+NO_VM_DROP_PROC                                                                                                                  VALID   2005-08-30:14:15:19                                                                                                                                                
+NO_VM_CREATE_PROC                                                                                                                VALID   2005-08-30:14:15:19                                                                                                                                                
+NO_VM_ALTER_PROC                                                                                                                 VALID   2005-08-30:14:15:19                                                                                                                                                
+VALIDATE_OWM                                                                                                                     VALID   2005-08-30:14:15:19                                                                                                                                                
+XMLVALIDATE                                                                                                                      VALID   2005-08-30:14:23:27                                                                                                                                                
+VALIDATE_EXF                                                                                                                     VALID   2005-08-30:14:24:56                                                                                                                                                
+VALIDATE_RUL                                                                                                                     VALID   2005-08-30:14:24:56                                                                                                                                                
+VALIDATE_ODM                                                                                                                     VALID   2005-08-30:14:25:25                                                                                                                                                
+VALIDATE_CONTEXT                                                                                                                 VALID   2005-08-30:14:27:13                                                                                                                                                
+SET_TABLESPACE                                                                                                                   VALID   2005-08-30:14:28:20                                                                                                                                                
+
+OBJECT_NAME                                                                                                                      STATUS  TIMESTAMP                                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------- ------- -------------------                                                                                                                                                
+VALIDATE_ORDIM                                                                                                                   VALID   2005-08-30:14:31:40                                                                                                                                                
+APS_VALIDATE                                                                                                                     VALID   2005-08-30:14:46:53                                                                                                                                                
+OLAPIHANDSHAKE2                                                                                                                  VALID   2005-08-30:14:47:46                                                                                                                                                
+OLAPIHISTORYRETENTION                                                                                                            VALID   2005-08-30:14:47:48                                                                                                                                                
+XOQ_VALIDATE                                                                                                                     VALID   2005-08-30:14:48:48                                                                                                                                                
+VALIDATE_SDO                                                                                                                     VALID   2005-08-30:14:51:12                                                                                                                                                
+PROD_NAME_SP                                                                                                                     INVALID 2008-05-19:13:43:37                                                                                                                                                
+PROD_ADD_SP                                                                                                                      INVALID 2008-05-19:13:43:37                                                                                                                                                
+TAX_COST_SP                                                                                                                      VALID   2008-05-19:13:43:38                                                                                                                                                
+BASKET_CONFIRM_SP                                                                                                                INVALID 2008-05-19:13:43:38                                                                                                                                                
+STATUS_SHIP_SP                                                                                                                   INVALID 2008-05-19:13:43:38                                                                                                                                                
+
+OBJECT_NAME                                                                                                                      STATUS  TIMESTAMP                                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------- ------- -------------------                                                                                                                                                
+STATUS_SP                                                                                                                        VALID   2008-06-06:00:02:52                                                                                                                                                
+SHIP_COST_SP                                                                                                                     VALID   2008-06-03:22:56:40                                                                                                                                                
+ORDER_TOTAL_SP                                                                                                                   VALID   2008-06-06:00:02:52                                                                                                                                                
+ORDER_TOTAL_SP2                                                                                                                  VALID   2008-06-06:00:02:52                                                                                                                                                
+STOCK_CK_SP                                                                                                                      VALID   2008-06-06:00:02:52                                                                                                                                                
+MEMBER_CK_SP                                                                                                                     VALID   2008-06-06:00:02:52                                                                                                                                                
+LOGIN_SP                                                                                                                         INVALID 2008-06-06:00:02:52                                                                                                                                                
+LOGIN2_SP                                                                                                                        INVALID 2008-06-06:00:02:52                                                                                                                                                
+TEST_NOCOPY_SP                                                                                                                   VALID   2008-06-03:22:56:41                                                                                                                                                
+RUN_NOCOPY_SP                                                                                                                    VALID   2008-06-03:22:56:41                                                                                                                                                
+BASK_CALC_SP                                                                                                                     VALID   2008-06-06:00:02:52                                                                                                                                                
+
+OBJECT_NAME                                                                                                                      STATUS  TIMESTAMP                                                                                                                                                          
+-------------------------------------------------------------------------------------------------------------------------------- ------- -------------------                                                                                                                                                
+PROMO_TEST_SP                                                                                                                    VALID   2008-06-06:00:02:52                                                                                                                                                
+TC_TEST_SP2                                                                                                                      VALID   2008-06-06:00:02:53                                                                                                                                                
+TC_TEST_SP1                                                                                                                      VALID   2008-06-06:00:02:53                                                                                                                                                
+PHONE_FMT_SP                                                                                                                     VALID   2008-06-03:22:56:41                                                                                                                                                
+STATUS_CHECK_SP                                                                                                                  INVALID 2008-06-06:00:00:00                                                                                                                                                
+
+71 rows selected.
+
+8-1:3 describe user dependencies
+ Name                                                                                                                                                                          Null?    Type
+ ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- -------- --------------------------------------------------------------------------------------------------------------------
+ NAME                                                                                                                                                                          NOT NULL VARCHAR2(30)
+ TYPE                                                                                                                                                                                   VARCHAR2(17)
+ REFERENCED_OWNER                                                                                                                                                                       VARCHAR2(30)
+ REFERENCED_NAME                                                                                                                                                                        VARCHAR2(64)
+ REFERENCED_TYPE                                                                                                                                                                        VARCHAR2(17)
+ REFERENCED_LINK_NAME                                                                                                                                                                   VARCHAR2(128)
+ SCHEMAID                                                                                                                                                                               NUMBER
+ DEPENDENCY_TYPE                                                                                                                                                                        VARCHAR2(4)
+
+8-1:4 execute that query
+
+NAME            TYPE                                                                                                                                                                                                                                                                                        
+--------------- -----------------                                                                                                                                                                                                                                                                           
+BB_SHIP_VU      VIEW                                                                                                                                                                                                                                                                                        
+STATUS_SP       PROCEDURE                                                                                                                                                                                                                                                                                   
+ORDER_INFO_PKG  PACKAGE BODY                                                                                                                                                                                                                                                                                
+TAX_CALC2_SF    FUNCTION                                                                                                                                                                                                                                                                                    
+PROMO_TEST_SP   PROCEDURE                                                                                                                                                                                                                                                                                   
+BASK_CALC_SP    PROCEDURE                                                                                                                                                                                                                                                                                   
+
+6 rows selected.
+
+****************************************
+****************************************
+Assignment 8-2 Testing dependencies on packaged program units
+****************************************
+****************************************
+8-2:1 review code for assignmetn08-02.txt
+8-2:2 copy and paste code (and run code for 8-2:3)
+
+Function created.
+
+
+Procedure created.
+
+8-2:3 verify validity of objects
+
+OBJECT_NAME                                                                                                                      STATUS                                                                                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------- -------                                                                                                                                                                    
+STATUS_CHECK_SP                                                                                                                  VALID                                                                                                                                                                      
+STATUS_DESC_SF                                                                                                                   VALID                                                                                                                                                                      
+
+8-2:4 modify the function
+
+Function created.
+
+8-2:5 test if function is still valid
+
+OBJECT_NAME                                                                                                                      STATUS                                                                                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------- -------                                                                                                                                                                    
+STATUS_CHECK_SP                                                                                                                  INVALID                                                                                                                                                                    
+STATUS_DESC_SF                                                                                                                   VALID                                                                                                                                                                      
+
+Looks invalid to me now
+8-2:6 Invoke the invalid procedure
+
+PL/SQL procedure successfully completed.
+
+8-2:7 check if it's valid now
+
+OBJECT_NAME                                                                                                                      STATUS                                                                                                                                                                     
+-------------------------------------------------------------------------------------------------------------------------------- -------                                                                                                                                                                    
+STATUS_CHECK_SP                                                                                                                  VALID                                                                                                                                                                      
+STATUS_DESC_SF                                                                                                                   VALID                                                                                                                                                                      
+
+Ta Da!
+****************************************
+****************************************
+Assignment 8-3 Testing dependencies on packaged program units
+****************************************
+****************************************
+8-3:1 review assignment 08-03.txt
+8-3:2 copy and past
+8-3:3 run the code
+
+Package created.
+
+
+Package body created.
+
+
+Procedure created.
+
+8-3:4 verity status
+
+STATUS                                                                                                                                                                                                                                                                                                      
+-------                                                                                                                                                                                                                                                                                                     
+VALID                                                                                                                                                                                                                                                                                                       
+
+8-3:5 modify the function
+8-3:6 re-run the package with the function modified
+
+Package created.
+
+
+Package body created.
+
+
+Procedure created.
+
+8-3:7 verify validity
+
+STATUS                                                                                                                                                                                                                                                                                                      
+-------                                                                                                                                                                                                                                                                                                     
+VALID                                                                                                                                                                                                                                                                                                       
+
+****************************************
+****************************************
+Assignment 8-7 Avoiding recompilation errors
+****************************************
+****************************************
+1) use the %type attribute when declaring variables in a procedure or function.  If the
+type within a table changes from, for example, a VARCHAR2 to a NUMBER, the referenced variable
+would not be changed as %type pulls the type directly from the object.
+2) use "select *" when inserting columns into a procedure.  if a column is added or
+changes names, it won't need to be referenced as the procedure is simply selecting
+everything within the object.
+****************************************
+****************************************
+Assignment 8-8 Identifying the types of dependencies
+****************************************
+****************************************
+Direct Dependencies: A procedure has an object directly named within its definition.  If this
+named object is modified, the procedure will become invalidated.  It is validated when run
+or if manually compiled.
+Indirect Dependencies:  A procedure has an object named, and this object has a direct dependency
+on another object, which is the indirect object.  When the indirect object is modified,
+both the direct dependency object and the object dependant upon that direct dependency both
+will become invalidated.  It is validated if run or manually compiled.
+Remote Dependencies: A object referenced within a procedure resides within another database.  If
+this object is modified, the procedure becomes invalid.  Unlike the other two, this is not
+validated until it is run, meaning the procedure will fail the first time it runs.
+****************************************
+****************************************

@@ -1,0 +1,93 @@
+The canonical "Hello World" problem for MapReduce, which is part of Hadoop, is the word count problem.  The idea is to count the occurances of words in a body of text.  Using the MapReduce algorithm this is a three step process. 
+
+The first step is the Map process, which creates a key value store.  The keys are the individual words in the body of the text.  The value associated with each key is 1.
+
+In the second step the key/value pairs ars sorted into alphabetic order.  (Remember the keys are the words in the text file.)
+
+The third step is the Reduce process.  Here the one values are summed for each word, which then yields the number of occurances of a word in the text file.
+
+We will use this problem to test the hadoop environment and to learn some basic commands for interacting with the environment.
+
+---
+
+The MapReduce Wordcount Problem
+
+Consider the python program in counts.py shown below
+
+#!/usr/bin/env python
+
+import sys
+
+counts = {}
+
+for line in sys.stdin:
+    words = line.split()
+    for word in words:
+        counts[word] = counts.get(word, 0)+1
+
+print counts
+
+Using a python dictionary it counts the occurances of words in an input file that is read from stdin (standard input)
+
+If you have access to a Unix or Mac machine you can run this program with the attached txt file that contains the novel, "The Hound of the Baskervilles" by Sir Arthur Conan Doyle. The command to execute is
+
+./counts.py < input.txt
+
+(On a Windows machine you can do similarily using Cygwin. Alternatively, there are some relatively simple modifications that you can make to the execution command to do the same thing.)
+
+The final print statement contains the key value pairs in the dictionary with the words in the file being the keys and the count of their coccurance being the value.
+
+There are two potential problems with this approach to the word count problem. First consider what happens as the size of the dictionary increases. Once it exceeds the CPU cache, and then virtual memory, the operating system will start paging memory to disk, which severly impacts the performance of the software. Second, consider the case where their is a huge amount of input data. This data is sequentially read, and parsed, one line at a time.
+
+The MapReduce solution to this problem breaks this problem into two parts: a map problem and then a reduce problem. In the Map part of the problem is put into the form of key value pairs.
+
+For the word count problem the keys are the individual words and the value is the current occurance of that word whose value will be one.
+
+Consider the code in mapper.py shown below.
+
+#!/usr/bin/env python
+
+import sys
+
+for line in sys.stdin:
+    words = line.split()
+    for word in words:
+        print word+"\t"+str(1)
+
+This code takes the occurance of each word, separated by white space, and prints it folloed by a tab and the character 1. The command to execute this is
+
+./mapper.py < input.txt
+
+What you will see is each word printed to the scree followed by the character 1.
+
+If you pipe the output of this command into the Unix/Linux sort command, then you will see that all the words have been sorted into alphabetic order. Try the command
+
+./mapper.py < input.txt | sort
+
+Now the occurance of each word is adjacent to each other. To conclude the MamReduce process we just need to add up the occurances of the values, the 1's in the output, for each word. The following code, reducer.py shown next, does the function.
+
+#!/usr/bin/env python
+
+import sys
+
+def output(previous_key,total):
+    if previous_key != None:
+        print previous_key+" was found "+str(total)+" times"
+
+previous_key = None
+total = 0
+
+for line in sys.stdin:
+    key, value = line.split("\t", 1)
+    if key != previous_key: 
+        output(previous_key, total)
+        previous_key = key
+        total = 0
+
+total += int(value);
+
+output(previous_key, total)
+
+Now the complete MapReduce process can be executed with the command.
+
+./mapper.py < input.txt | sort | ./reducer.py

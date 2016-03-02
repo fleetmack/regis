@@ -1,0 +1,11 @@
+CREATE TYPE contact_ot AS OBJECT
+ (phone NUMBER(10),
+  fax NUMBER(10),
+  MEMBER FUNCTION contact_fmt
+      RETURN VARCHAR2 );
+/
+CREATE TYPE BODY contact_ot
+  AS
+
+END;
+/

@@ -1,0 +1,7 @@
+using python: impressions.py
+
+If you need it, the syntax to adress files in HDFS is
+
+hdfs://localhost:9000/user/hadoop/wk6/ClarissaTotal.txt
+
+directories in impressions.py may be different for me

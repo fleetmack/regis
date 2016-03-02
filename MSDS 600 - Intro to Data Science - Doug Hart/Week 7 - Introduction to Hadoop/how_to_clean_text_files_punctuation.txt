@@ -1,0 +1,1 @@
+If you would like to try a bigger data file, you can get the complete works of Shakespeare at http://norvig.com/ngrams/shakespeare.txt.  Some preprocessing of the text has been done to separate the punctuation from the words, etc.  See http://norvig.com/ngrams for more details.

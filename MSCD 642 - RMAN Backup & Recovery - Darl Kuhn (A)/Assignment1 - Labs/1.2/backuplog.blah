@@ -1,0 +1,1073 @@
+
+Spooling started in log file: G:/backuplog.blah
+
+Recovery Manager10.2.0.1.0
+
+RMAN> 
+
+List of Backup Sets
+===================
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+3       Full    526.32M    DISK        00:00:41     18-MAR-08      
+        BP Key: 3   Status: AVAILABLE  Compressed: NO  Tag: TAG20080318T201642
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\04JBJMTA_1_1
+  List of Datafiles in backup set 3
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  2       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+  4       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+4       Full    7.11M      DISK        00:00:02     18-MAR-08      
+        BP Key: 4   Status: AVAILABLE  Compressed: NO  Tag: TAG20080318T201642
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\05JBJMUN_1_1
+  Control File Included: Ckp SCN: 578924       Ckp time: 18-MAR-08
+  SPFILE Included: Modification time: 18-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+5       Full    80.00K     DISK        00:00:01     18-MAR-08      
+        BP Key: 5   Status: AVAILABLE  Compressed: NO  Tag: TAG20080318T202658
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\06JBJNGI_1_1
+  SPFILE Included: Modification time: 18-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+6       Full    354.55M    DISK        00:00:28     24-MAR-08      
+        BP Key: 6   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T164408
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\07JC34MO_1_1
+  List of Datafiles in backup set 6
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 621875     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+7       Full    7.11M      DISK        00:00:02     24-MAR-08      
+        BP Key: 7   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T164408
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\08JC34NR_1_1
+  Control File Included: Ckp SCN: 621887       Ckp time: 24-MAR-08
+  SPFILE Included: Modification time: 24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+8       Full    354.55M    DISK        00:00:26     24-MAR-08      
+        BP Key: 8   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T165014
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\09JC3526_1_1
+  List of Datafiles in backup set 8
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 622017     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+9       Full    7.11M      DISK        00:00:02     24-MAR-08      
+        BP Key: 9   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T165014
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0AJC3539_1_1
+  Control File Included: Ckp SCN: 622029       Ckp time: 24-MAR-08
+  SPFILE Included: Modification time: 24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+10      Full    172.15M    DISK        00:00:26     24-MAR-08      
+        BP Key: 10   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0CJC37FI_1_1
+  List of Datafiles in backup set 10
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 623724     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 623724     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+11      Full    354.91M    DISK        00:00:41     24-MAR-08      
+        BP Key: 11   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0BJC37FI_1_1
+  List of Datafiles in backup set 11
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 623723     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 623723     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+12      Full    7.08M      DISK        00:00:06     24-MAR-08      
+        BP Key: 12   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0DJC37GL_1_1
+  Control File Included: Ckp SCN: 623736       Ckp time: 24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+13      Full    80.00K     DISK        00:00:01     24-MAR-08      
+        BP Key: 13   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0EJC37GR_1_1
+  SPFILE Included: Modification time: 24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+14      92.74M     DISK        00:00:07     24-MAR-08      
+        BP Key: 14   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173419
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0FJC37KS_1_1
+
+  List of Archived Logs in backup set 14
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    1       545507     04-MAR-08 566714     18-MAR-08
+  1    2       566714     18-MAR-08 600042     24-MAR-08
+  1    3       600042     24-MAR-08 620161     24-MAR-08
+  1    4       620161     24-MAR-08 623792     24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+15      Full    527.03M    DISK        00:00:40     24-MAR-08      
+        BP Key: 15   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173428
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0GJC37L4_1_1
+  List of Datafiles in backup set 15
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  2       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+  4       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+16      Full    7.11M      DISK        00:00:02     24-MAR-08      
+        BP Key: 16   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173428
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0HJC37MH_1_1
+  Control File Included: Ckp SCN: 623813       Ckp time: 24-MAR-08
+  SPFILE Included: Modification time: 24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+17      2.00K      DISK        00:00:01     24-MAR-08      
+        BP Key: 17   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173516
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0IJC37MK_1_1
+
+  List of Archived Logs in backup set 17
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    5       623792     24-MAR-08 623817     24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+18      Full    80.00K     DISK        00:00:01     25-MAR-08      
+        BP Key: 18   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162032
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0JJC5NMG_1_1
+  SPFILE Included: Modification time: 25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+19      Full    368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 19   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162352
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0KJC5NSP_1_1
+  List of Datafiles in backup set 19
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4       Full 624387     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+20      Full    368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 20   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162644
+        Piece Name: C:\BK202_0NJC5O24.BUS
+  List of Datafiles in backup set 20
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4       Full 624457     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+21      Incr 1  368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 21   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162955
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0PJC5O84_1_1
+  List of Datafiles in backup set 21
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4    1  Incr 624536     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+22      2.01M      DISK        00:00:07     25-MAR-08      
+        BP Key: 22   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0RJC5OB3_1_1
+
+  List of Archived Logs in backup set 22
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    3       600042     24-MAR-08 620161     24-MAR-08
+  1    4       620161     24-MAR-08 623792     24-MAR-08
+  1    5       623792     24-MAR-08 623817     24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+23      90.73M     DISK        00:00:07     25-MAR-08      
+        BP Key: 23   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0QJC5OB3_1_1
+
+  List of Archived Logs in backup set 23
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    1       545507     04-MAR-08 566714     18-MAR-08
+  1    2       566714     18-MAR-08 600042     24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+24      789.50K    DISK        00:00:00     25-MAR-08      
+        BP Key: 24   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0SJC5OBD_1_1
+
+  List of Archived Logs in backup set 24
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    6       623817     24-MAR-08 624703     25-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+25      45.89M     DISK        00:00:03     25-MAR-08      
+        BP Key: 25   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163508
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0TJC5OHS_1_1
+
+  List of Archived Logs in backup set 25
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    1       545507     04-MAR-08 566714     18-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+26      45.89M     DISK        00:00:04     25-MAR-08      
+        BP Key: 26   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163747
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0UJC5OMR_1_1
+
+  List of Archived Logs in backup set 26
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    1       545507     04-MAR-08 566714     18-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+27      44.84M     DISK        00:00:03     25-MAR-08      
+        BP Key: 27   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164006
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0VJC5OR6_1_1
+
+  List of Archived Logs in backup set 27
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    2       566714     18-MAR-08 600042     24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+28      2.01M      DISK        00:00:03     25-MAR-08      
+        BP Key: 28   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164006
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\10JC5OR6_1_1
+
+  List of Archived Logs in backup set 28
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    3       600042     24-MAR-08 620161     24-MAR-08
+  1    4       620161     24-MAR-08 623792     24-MAR-08
+  1    5       623792     24-MAR-08 623817     24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+29      1.16M      DISK        00:00:00     25-MAR-08      
+        BP Key: 29   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164006
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\11JC5OR9_1_1
+
+  List of Archived Logs in backup set 29
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    6       623817     24-MAR-08 624703     25-MAR-08
+  1    7       624703     25-MAR-08 625456     25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+30      Full    172.32M    DISK        00:00:36     25-MAR-08      
+        BP Key: 30   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164010
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\13JC5ORB_1_1
+  List of Datafiles in backup set 30
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 625462     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 625462     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+31      Full    354.91M    DISK        00:00:44     25-MAR-08      
+        BP Key: 31   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164010
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\12JC5ORB_1_1
+  List of Datafiles in backup set 31
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 625461     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 625461     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+32      3.00K      DISK        00:00:01     25-MAR-08      
+        BP Key: 32   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164056
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\14JC5OSO_1_1
+
+  List of Archived Logs in backup set 32
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    8       625456     25-MAR-08 625480     25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+33      Full    7.11M      DISK        00:00:01     25-MAR-08      
+        BP Key: 33   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164058
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\C-3543043205-20080325-00
+  Control File Included: Ckp SCN: 625486       Ckp time: 25-MAR-08
+  SPFILE Included: Modification time: 25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+34      Full    172.32M    DISK        00:00:41     25-MAR-08      
+        BP Key: 34   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164628
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\17JC5P74_1_1
+  List of Datafiles in backup set 34
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 625609     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 625609     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+35      Full    354.91M    DISK        00:00:49     25-MAR-08      
+        BP Key: 35   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164628
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\16JC5P74_1_1
+  List of Datafiles in backup set 35
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 625608     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 625608     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+36      Full    7.08M      DISK        00:00:03     25-MAR-08      
+        BP Key: 36   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164628
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\18JC5P8I_1_1
+  Control File Included: Ckp SCN: 625624       Ckp time: 25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+37      Full    7.11M      DISK        00:00:01     25-MAR-08      
+        BP Key: 37   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164718
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\C-3543043205-20080325-01
+  Control File Included: Ckp SCN: 625629       Ckp time: 25-MAR-08
+  SPFILE Included: Modification time: 25-MAR-08
+
+RMAN> 
+
+List of Datafile Backups
+========================
+
+File Key     TY LV S Ckp SCN    Ckp Time  #Pieces #Copies Compressed Tag
+---- ------- -  -- - ---------- --------- ------- ------- ---------- ---
+1    35      B  F  A 625608     25-MAR-08 1       1       NO         TAG20080325T164628
+     31      B  F  A 625461     25-MAR-08 1       1       NO         TAG20080325T164010
+     15      B  F  A 623798     24-MAR-08 1       1       NO         TAG20080324T173428
+     11      B  F  A 623723     24-MAR-08 1       1       NO         TAG20080324T173130
+     8       B  F  A 622017     24-MAR-08 1       1       NO         TAG20080324T165014
+     6       B  F  A 621875     24-MAR-08 1       1       NO         TAG20080324T164408
+     3       B  F  A 578909     18-MAR-08 1       1       NO         TAG20080318T201642
+2    34      B  F  A 625609     25-MAR-08 1       1       NO         TAG20080325T164628
+     30      B  F  A 625462     25-MAR-08 1       1       NO         TAG20080325T164010
+     15      B  F  A 623798     24-MAR-08 1       1       NO         TAG20080324T173428
+     10      B  F  A 623724     24-MAR-08 1       1       NO         TAG20080324T173130
+     3       B  F  A 578909     18-MAR-08 1       1       NO         TAG20080318T201642
+3    34      B  F  A 625609     25-MAR-08 1       1       NO         TAG20080325T164628
+     30      B  F  A 625462     25-MAR-08 1       1       NO         TAG20080325T164010
+     15      B  F  A 623798     24-MAR-08 1       1       NO         TAG20080324T173428
+     10      B  F  A 623724     24-MAR-08 1       1       NO         TAG20080324T173130
+     3       B  F  A 578909     18-MAR-08 1       1       NO         TAG20080318T201642
+4    35      B  F  A 625608     25-MAR-08 1       1       NO         TAG20080325T164628
+     31      B  F  A 625461     25-MAR-08 1       1       NO         TAG20080325T164010
+     21      B  1  A 624536     25-MAR-08 1       1       NO         TAG20080325T162955
+     20      B  F  A 624457     25-MAR-08 1       1       NO         TAG20080325T162644
+     19      B  F  A 624387     25-MAR-08 1       1       NO         TAG20080325T162352
+     15      B  F  A 623798     24-MAR-08 1       1       NO         TAG20080324T173428
+     11      B  F  A 623723     24-MAR-08 1       1       NO         TAG20080324T173130
+     3       B  F  A 578909     18-MAR-08 1       1       NO         TAG20080318T201642
+
+List of Archived Log Backups
+============================
+
+Thrd Seq     Low SCN    Low Time  BS Key  S #Pieces #Copies Compressed Tag
+---- ------- ---------- --------- ------- - ------- ------- ---------- ---
+1    1       545507     04-MAR-08 26      A 1       1       NO         TAG20080325T163747
+                                  25      A 1       1       NO         TAG20080325T163508
+                                  23      A 1       1       NO         TAG20080325T163130
+                                  14      A 1       1       NO         TAG20080324T173419
+1    2       566714     18-MAR-08 27      A 1       1       NO         TAG20080325T164006
+                                  23      A 1       1       NO         TAG20080325T163130
+                                  14      A 1       1       NO         TAG20080324T173419
+1    3       600042     24-MAR-08 28      A 1       1       NO         TAG20080325T164006
+                                  22      A 1       1       NO         TAG20080325T163130
+                                  14      A 1       1       NO         TAG20080324T173419
+1    4       620161     24-MAR-08 28      A 1       1       NO         TAG20080325T164006
+                                  22      A 1       1       NO         TAG20080325T163130
+                                  14      A 1       1       NO         TAG20080324T173419
+1    5       623792     24-MAR-08 28      A 1       1       NO         TAG20080325T164006
+                                  22      A 1       1       NO         TAG20080325T163130
+                                  17      A 1       1       NO         TAG20080324T173516
+1    6       623817     24-MAR-08 29      A 1       1       NO         TAG20080325T164006
+                                  24      A 1       1       NO         TAG20080325T163130
+1    7       624703     25-MAR-08 29      A 1       1       NO         TAG20080325T164006
+1    8       625456     25-MAR-08 32      A 1       1       NO         TAG20080325T164056
+
+List of Control File Backups
+============================
+
+CF Ckp SCN Ckp Time  BS Key  S #Pieces #Copies Compressed Tag
+---------- --------- ------- - ------- ------- ---------- ---
+625629     25-MAR-08 37      A 1       1       NO         TAG20080325T164718
+625624     25-MAR-08 36      A 1       1       NO         TAG20080325T164628
+625486     25-MAR-08 33      A 1       1       NO         TAG20080325T164058
+623813     24-MAR-08 16      A 1       1       NO         TAG20080324T173428
+623736     24-MAR-08 12      A 1       1       NO         TAG20080324T173130
+622029     24-MAR-08 9       A 1       1       NO         TAG20080324T165014
+621887     24-MAR-08 7       A 1       1       NO         TAG20080324T164408
+578924     18-MAR-08 4       A 1       1       NO         TAG20080318T201642
+List of SPFILE Backups
+======================
+
+Modification Time BS Key  S #Pieces #Copies Compressed Tag
+----------------- ------- - ------- ------- ---------- ---
+25-MAR-08         37      A 1       1       NO         TAG20080325T164718
+25-MAR-08         33      A 1       1       NO         TAG20080325T164058
+25-MAR-08         18      A 1       1       NO         TAG20080325T162032
+24-MAR-08         16      A 1       1       NO         TAG20080324T173428
+24-MAR-08         13      A 1       1       NO         TAG20080324T173130
+24-MAR-08         9       A 1       1       NO         TAG20080324T165014
+24-MAR-08         7       A 1       1       NO         TAG20080324T164408
+18-MAR-08         5       A 1       1       NO         TAG20080318T202658
+18-MAR-08         4       A 1       1       NO         TAG20080318T201642
+
+RMAN> 
+
+List of Backups
+===============
+Key     TY LV S Device Type Completion Time #Pieces #Copies Compressed Tag
+------- -- -- - ----------- --------------- ------- ------- ---------- ---
+3       B  F  A DISK        18-MAR-08       1       1       NO         TAG20080318T201642
+4       B  F  A DISK        18-MAR-08       1       1       NO         TAG20080318T201642
+5       B  F  A DISK        18-MAR-08       1       1       NO         TAG20080318T202658
+6       B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T164408
+7       B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T164408
+8       B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T165014
+9       B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T165014
+10      B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T173130
+11      B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T173130
+12      B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T173130
+13      B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T173130
+14      B  A  A DISK        24-MAR-08       1       1       NO         TAG20080324T173419
+15      B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T173428
+16      B  F  A DISK        24-MAR-08       1       1       NO         TAG20080324T173428
+17      B  A  A DISK        24-MAR-08       1       1       NO         TAG20080324T173516
+18      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T162032
+19      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T162352
+20      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T162644
+21      B  1  A DISK        25-MAR-08       1       1       NO         TAG20080325T162955
+22      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T163130
+23      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T163130
+24      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T163130
+25      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T163508
+26      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T163747
+27      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T164006
+28      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T164006
+29      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T164006
+30      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T164010
+31      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T164010
+32      B  A  A DISK        25-MAR-08       1       1       NO         TAG20080325T164056
+33      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T164058
+34      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T164628
+35      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T164628
+36      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T164628
+37      B  F  A DISK        25-MAR-08       1       1       NO         TAG20080325T164718
+
+RMAN> 
+
+RMAN> 
+
+List of Backup Sets
+===================
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+3       Full    526.32M    DISK        00:00:41     18-MAR-08      
+        BP Key: 3   Status: AVAILABLE  Compressed: NO  Tag: TAG20080318T201642
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\04JBJMTA_1_1
+  List of Datafiles in backup set 3
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  2       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+  4       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+4       Full    7.11M      DISK        00:00:02     18-MAR-08      
+        BP Key: 4   Status: AVAILABLE  Compressed: NO  Tag: TAG20080318T201642
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\05JBJMUN_1_1
+  Control File Included: Ckp SCN: 578924       Ckp time: 18-MAR-08
+  SPFILE Included: Modification time: 18-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+5       Full    80.00K     DISK        00:00:01     18-MAR-08      
+        BP Key: 5   Status: AVAILABLE  Compressed: NO  Tag: TAG20080318T202658
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\06JBJNGI_1_1
+  SPFILE Included: Modification time: 18-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+6       Full    354.55M    DISK        00:00:28     24-MAR-08      
+        BP Key: 6   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T164408
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\07JC34MO_1_1
+  List of Datafiles in backup set 6
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 621875     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+7       Full    7.11M      DISK        00:00:02     24-MAR-08      
+        BP Key: 7   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T164408
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\08JC34NR_1_1
+  Control File Included: Ckp SCN: 621887       Ckp time: 24-MAR-08
+  SPFILE Included: Modification time: 24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+8       Full    354.55M    DISK        00:00:26     24-MAR-08      
+        BP Key: 8   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T165014
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\09JC3526_1_1
+  List of Datafiles in backup set 8
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 622017     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+9       Full    7.11M      DISK        00:00:02     24-MAR-08      
+        BP Key: 9   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T165014
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0AJC3539_1_1
+  Control File Included: Ckp SCN: 622029       Ckp time: 24-MAR-08
+  SPFILE Included: Modification time: 24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+10      Full    172.15M    DISK        00:00:26     24-MAR-08      
+        BP Key: 10   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0CJC37FI_1_1
+  List of Datafiles in backup set 10
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 623724     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 623724     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+11      Full    354.91M    DISK        00:00:41     24-MAR-08      
+        BP Key: 11   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0BJC37FI_1_1
+  List of Datafiles in backup set 11
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 623723     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 623723     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+12      Full    7.08M      DISK        00:00:06     24-MAR-08      
+        BP Key: 12   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0DJC37GL_1_1
+  Control File Included: Ckp SCN: 623736       Ckp time: 24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+13      Full    80.00K     DISK        00:00:01     24-MAR-08      
+        BP Key: 13   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0EJC37GR_1_1
+  SPFILE Included: Modification time: 24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+14      92.74M     DISK        00:00:07     24-MAR-08      
+        BP Key: 14   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173419
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0FJC37KS_1_1
+
+  List of Archived Logs in backup set 14
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    1       545507     04-MAR-08 566714     18-MAR-08
+  1    2       566714     18-MAR-08 600042     24-MAR-08
+  1    3       600042     24-MAR-08 620161     24-MAR-08
+  1    4       620161     24-MAR-08 623792     24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+15      Full    527.03M    DISK        00:00:40     24-MAR-08      
+        BP Key: 15   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173428
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0GJC37L4_1_1
+  List of Datafiles in backup set 15
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  2       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+  4       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+16      Full    7.11M      DISK        00:00:02     24-MAR-08      
+        BP Key: 16   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173428
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0HJC37MH_1_1
+  Control File Included: Ckp SCN: 623813       Ckp time: 24-MAR-08
+  SPFILE Included: Modification time: 24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+17      2.00K      DISK        00:00:01     24-MAR-08      
+        BP Key: 17   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173516
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0IJC37MK_1_1
+
+  List of Archived Logs in backup set 17
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    5       623792     24-MAR-08 623817     24-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+18      Full    80.00K     DISK        00:00:01     25-MAR-08      
+        BP Key: 18   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162032
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0JJC5NMG_1_1
+  SPFILE Included: Modification time: 25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+19      Full    368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 19   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162352
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0KJC5NSP_1_1
+  List of Datafiles in backup set 19
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4       Full 624387     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+20      Full    368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 20   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162644
+        Piece Name: C:\BK202_0NJC5O24.BUS
+  List of Datafiles in backup set 20
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4       Full 624457     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+21      Incr 1  368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 21   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162955
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0PJC5O84_1_1
+  List of Datafiles in backup set 21
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4    1  Incr 624536     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+22      2.01M      DISK        00:00:07     25-MAR-08      
+        BP Key: 22   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0RJC5OB3_1_1
+
+  List of Archived Logs in backup set 22
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    3       600042     24-MAR-08 620161     24-MAR-08
+  1    4       620161     24-MAR-08 623792     24-MAR-08
+  1    5       623792     24-MAR-08 623817     24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+23      90.73M     DISK        00:00:07     25-MAR-08      
+        BP Key: 23   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0QJC5OB3_1_1
+
+  List of Archived Logs in backup set 23
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    1       545507     04-MAR-08 566714     18-MAR-08
+  1    2       566714     18-MAR-08 600042     24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+24      789.50K    DISK        00:00:00     25-MAR-08      
+        BP Key: 24   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0SJC5OBD_1_1
+
+  List of Archived Logs in backup set 24
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    6       623817     24-MAR-08 624703     25-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+25      45.89M     DISK        00:00:03     25-MAR-08      
+        BP Key: 25   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163508
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0TJC5OHS_1_1
+
+  List of Archived Logs in backup set 25
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    1       545507     04-MAR-08 566714     18-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+26      45.89M     DISK        00:00:04     25-MAR-08      
+        BP Key: 26   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T163747
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0UJC5OMR_1_1
+
+  List of Archived Logs in backup set 26
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    1       545507     04-MAR-08 566714     18-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+27      44.84M     DISK        00:00:03     25-MAR-08      
+        BP Key: 27   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164006
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0VJC5OR6_1_1
+
+  List of Archived Logs in backup set 27
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    2       566714     18-MAR-08 600042     24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+28      2.01M      DISK        00:00:03     25-MAR-08      
+        BP Key: 28   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164006
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\10JC5OR6_1_1
+
+  List of Archived Logs in backup set 28
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    3       600042     24-MAR-08 620161     24-MAR-08
+  1    4       620161     24-MAR-08 623792     24-MAR-08
+  1    5       623792     24-MAR-08 623817     24-MAR-08
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+29      1.16M      DISK        00:00:00     25-MAR-08      
+        BP Key: 29   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164006
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\11JC5OR9_1_1
+
+  List of Archived Logs in backup set 29
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    6       623817     24-MAR-08 624703     25-MAR-08
+  1    7       624703     25-MAR-08 625456     25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+30      Full    172.32M    DISK        00:00:36     25-MAR-08      
+        BP Key: 30   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164010
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\13JC5ORB_1_1
+  List of Datafiles in backup set 30
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 625462     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 625462     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+31      Full    354.91M    DISK        00:00:44     25-MAR-08      
+        BP Key: 31   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164010
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\12JC5ORB_1_1
+  List of Datafiles in backup set 31
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 625461     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 625461     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Size       Device Type Elapsed Time Completion Time
+------- ---------- ----------- ------------ ---------------
+32      3.00K      DISK        00:00:01     25-MAR-08      
+        BP Key: 32   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164056
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\14JC5OSO_1_1
+
+  List of Archived Logs in backup set 32
+  Thrd Seq     Low SCN    Low Time  Next SCN   Next Time
+  ---- ------- ---------- --------- ---------- ---------
+  1    8       625456     25-MAR-08 625480     25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+33      Full    7.11M      DISK        00:00:01     25-MAR-08      
+        BP Key: 33   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164058
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\C-3543043205-20080325-00
+  Control File Included: Ckp SCN: 625486       Ckp time: 25-MAR-08
+  SPFILE Included: Modification time: 25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+34      Full    172.32M    DISK        00:00:41     25-MAR-08      
+        BP Key: 34   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164628
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\17JC5P74_1_1
+  List of Datafiles in backup set 34
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 625609     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 625609     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+35      Full    354.91M    DISK        00:00:49     25-MAR-08      
+        BP Key: 35   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164628
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\16JC5P74_1_1
+  List of Datafiles in backup set 35
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 625608     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 625608     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+36      Full    7.08M      DISK        00:00:03     25-MAR-08      
+        BP Key: 36   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164628
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\18JC5P8I_1_1
+  Control File Included: Ckp SCN: 625624       Ckp time: 25-MAR-08
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+37      Full    7.11M      DISK        00:00:01     25-MAR-08      
+        BP Key: 37   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164718
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\C-3543043205-20080325-01
+  Control File Included: Ckp SCN: 625629       Ckp time: 25-MAR-08
+  SPFILE Included: Modification time: 25-MAR-08
+
+RMAN> 
+
+List of Datafile Copies
+Key     File S Completion Time Ckp SCN    Ckp Time        Name
+------- ---- - --------------- ---------- --------------- ----
+8       4    A 25-MAR-08       624492     25-MAR-08       C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\DATA_D-BK202_I-3543043205_TS-USERS_FNO-4_0OJC5O4S
+
+List of Archived Log Copies
+Key     Thrd Seq     S Low Time  Name
+------- ---- ------- - --------- ----
+2       1    2       A 18-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00002_0648434439.001
+3       1    3       A 24-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00003_0648434439.001
+4       1    4       A 24-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00004_0648434439.001
+5       1    5       A 24-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00005_0648434439.001
+6       1    6       A 24-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00006_0648434439.001
+7       1    7       A 25-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00007_0648434439.001
+8       1    8       A 25-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00008_0648434439.001
+
+RMAN> 
+
+RMAN> 
+
+List of Archived Log Copies
+Key     Thrd Seq     S Low Time  Name
+------- ---- ------- - --------- ----
+2       1    2       A 18-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00002_0648434439.001
+3       1    3       A 24-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00003_0648434439.001
+4       1    4       A 24-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00004_0648434439.001
+5       1    5       A 24-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00005_0648434439.001
+6       1    6       A 24-MAR-08 C:\ORACLE\PRODUCT\10.2.0\DB_1\RDBMS\ARC00006_0648434439.001
+
+RMAN> 
+
+List of Backup Sets
+===================
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+3       Full    526.32M    DISK        00:00:41     18-MAR-08      
+        BP Key: 3   Status: AVAILABLE  Compressed: NO  Tag: TAG20080318T201642
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\04JBJMTA_1_1
+  List of Datafiles in backup set 3
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  2       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+  4       Full 578909     18-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+6       Full    354.55M    DISK        00:00:28     24-MAR-08      
+        BP Key: 6   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T164408
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\07JC34MO_1_1
+  List of Datafiles in backup set 6
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 621875     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+8       Full    354.55M    DISK        00:00:26     24-MAR-08      
+        BP Key: 8   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T165014
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\09JC3526_1_1
+  List of Datafiles in backup set 8
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 622017     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+10      Full    172.15M    DISK        00:00:26     24-MAR-08      
+        BP Key: 10   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0CJC37FI_1_1
+  List of Datafiles in backup set 10
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 623724     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 623724     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+11      Full    354.91M    DISK        00:00:41     24-MAR-08      
+        BP Key: 11   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173130
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0BJC37FI_1_1
+  List of Datafiles in backup set 11
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 623723     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 623723     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+15      Full    527.03M    DISK        00:00:40     24-MAR-08      
+        BP Key: 15   Status: AVAILABLE  Compressed: NO  Tag: TAG20080324T173428
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0GJC37L4_1_1
+  List of Datafiles in backup set 15
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  2       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+  4       Full 623798     24-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+19      Full    368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 19   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162352
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0KJC5NSP_1_1
+  List of Datafiles in backup set 19
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4       Full 624387     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+20      Full    368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 20   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162644
+        Piece Name: C:\BK202_0NJC5O24.BUS
+  List of Datafiles in backup set 20
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4       Full 624457     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+21      Incr 1  368.00K    DISK        00:00:00     25-MAR-08      
+        BP Key: 21   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T162955
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\0PJC5O84_1_1
+  List of Datafiles in backup set 21
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  4    1  Incr 624536     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+30      Full    172.32M    DISK        00:00:36     25-MAR-08      
+        BP Key: 30   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164010
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\13JC5ORB_1_1
+  List of Datafiles in backup set 30
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 625462     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 625462     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+31      Full    354.91M    DISK        00:00:44     25-MAR-08      
+        BP Key: 31   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164010
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\12JC5ORB_1_1
+  List of Datafiles in backup set 31
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 625461     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 625461     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+34      Full    172.32M    DISK        00:00:41     25-MAR-08      
+        BP Key: 34   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164628
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\17JC5P74_1_1
+  List of Datafiles in backup set 34
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  2       Full 625609     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\UNDOTBS01.DBF
+  3       Full 625609     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\SYSAUX01.DBF
+
+BS Key  Type LV Size       Device Type Elapsed Time Completion Time
+------- ---- -- ---------- ----------- ------------ ---------------
+35      Full    354.91M    DISK        00:00:49     25-MAR-08      
+        BP Key: 35   Status: AVAILABLE  Compressed: NO  Tag: TAG20080325T164628
+        Piece Name: C:\ORACLE\PRODUCT\10.2.0\DB_1\DATABASE\16JC5P74_1_1
+  List of Datafiles in backup set 35
+  File LV Type Ckp SCN    Ckp Time  Name
+  ---- -- ---- ---------- --------- ----
+  1       Full 625608     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK1\SYSTEM01.DBF
+  4       Full 625608     25-MAR-08 C:\MSCD642\DBMS\APP\ADMIN\BK202\ORADATA\DISK2\USERS01.DBF
+
+RMAN> 
+
+List of Database Incarnations
+DB Key  Inc Key DB Name  DB ID            STATUS  Reset SCN  Reset Time
+------- ------- -------- ---------------- --- ---------- ----------
+1       1       BK202    3543043205       PARENT  534907     09-JAN-07
+2       2       BK202    3543043205       CURRENT 545507     04-MAR-08
+
+RMAN> 
+RMAN-00571: ===========================================================
+RMAN-00569: =============== ERROR MESSAGE STACK FOLLOWS ===============
+RMAN-00571: ===========================================================
+RMAN-00558: error encountered while parsing input commands
+RMAN-01009: syntax error: found "restore": expecting one of: "all, archivelog, backup, backuppiece, backupset, backed, completed, copy, controlfilecopy, datafilecopy, device, expired, global, incarnation, like, proxy, recoverable, script, tag"
+RMAN-01007: at line 1 column 6 file: standard input
+
+RMAN> 
+RMAN-00571: ===========================================================
+RMAN-00569: =============== ERROR MESSAGE STACK FOLLOWS ===============
+RMAN-00571: ===========================================================
+RMAN-06002: command not allowed when not connected to a recovery catalog
+
+RMAN> 
+RMAN-00571: ===========================================================
+RMAN-00569: =============== ERROR MESSAGE STACK FOLLOWS ===============
+RMAN-00571: ===========================================================
+RMAN-00558: error encountered while parsing input commands
+RMAN-01009: syntax error: found "identifier": expecting one of: "all, archivelog, backup, backuppiece, backupset, backed, completed, copy, controlfilecopy, datafilecopy, device, expired, global, incarnation, like, proxy, recoverable, script, tag"
+RMAN-01008: the bad identifier was: failure
+RMAN-01007: at line 1 column 6 file: standard input
+
+RMAN-00571: ===========================================================
+RMAN-00569: =============== ERROR MESSAGE STACK FOLLOWS ===============
+RMAN-00571: ===========================================================
+RMAN-00558: error encountered while parsing input commands
+RMAN-01009: syntax error: found ";": expecting one of: "allocate, alter, backup, beginline, blockrecover, catalog, change, connect, copy, convert, create, crosscheck, configure, duplicate, debug, delete, drop, exit, endinline, flashback, host, {, library, list, mount, open, print, quit, recover, register, release, replace, report, renormalize, reset, restore, resync, rman, run, rpctest, set, setlimit, sql, switch, spool, startup, shutdown, send, show, test, transport, upgrade, unregister, validate"
+RMAN-01007: at line 1 column 13 file: standard input
+
+RMAN> 

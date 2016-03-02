@@ -1,0 +1,16 @@
+Well, to start I would say it is quite simple to determine which datafile a table is contained in by querying the dba_extents and dba_data_files views:
+
+select *
+from dba_extents dbe, dba_data_files  dbf
+where dbe.file_id = dbf.file_id
+  and segment_name = 'table_name';
+
+This will clearly show you which datafile your table is in.  If the table is contained solely within one datafile, you have your answer, else, you will have to dig deeper by obtaining the rowid of the particular row you are investigating.
+
+In Oracle 10g, the 7-9 spots of a ROWID represent the datafile# which the row is contained in.  Spots 1-6 are the Data Object#, spots 10-15 are the data block#, and the remainder is the row#.  So to determine the datafile, we must find the rowid (specifically, characters 7-9).
+
+SELECT substr(rowid,7,3) from table_name
+WHERE criteria_to_determine_row;
+
+This shows that the datafile, which much be converted to numeric. (A=0, B=1, etc.).  This is your data file number.  Go back to the first query pulling from dba_data_files and check which data file your file_id number is in and you'll have your answer!
+u will have to dig deeper.

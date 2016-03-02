@@ -1,0 +1,301 @@
+Bryan Mack
+Assignment 2 - Week 2
+Chapters 3 and 4 Hands-On Assigments
+****************************************
+****************************************
+Assignment 3-1 Querying data in a block
+****************************************
+****************************************
+3-1:1  Open SQL Plus - ok
+3-1:2
+3-1:3 Create and initialize host variable
+
+PL/SQL procedure successfully completed.
+
+3-1:4  Find the file assignment03-01.txt
+3-1:5  Review the code
+3-1:6 Paste code into SQL Plus
+Date Shipped: 25-JAN-07                                                                                                                                                                                 
+Shipper: UPS                                                                                                                                                                                            
+Shipping #: ZW845584GD89H569                                                                                                                                                                            
+
+PL/SQL procedure successfully completed.
+
+3-1:7  Change the :g_basket variable to 7
+
+PL/SQL procedure successfully completed.
+
+3-1:8  Re-execute the code from 3-1:6
+This is supposed to generate an error
+DECLARE
+*
+ERROR at line 1:
+ORA-01403: no data found 
+ORA-06512: at line 6 
+
+
+****************************************
+****************************************
+Assignment 3-2  Using a record variable
+****************************************
+****************************************
+3-2:1 open sql plus - ok
+3-2:2 set serveroutput on -- already is on
+3-2:3 make variable g_basket
+
+PL/SQL procedure successfully completed.
+
+3-2:4 find assignment 03-02.txt - ok
+3-2:5 review the file - ok
+3-2:6 paste code
+Date Shipped: 25-JAN-07                                                                                                                                                                                 
+Shipper: UPS                                                                                                                                                                                            
+Shipping #: ZW845584GD89H569                                                                                                                                                                            
+Notes: Customer called to confirm shipment                                                                                                                                                              
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 3-3 Processing database data with IF statements
+****************************************
+****************************************
+3-3:1 Open SQL Plus - ok
+3-3:2 set server output on - already is
+3-3:3 create host variable g_shopper
+
+PL/SQL procedure successfully completed.
+
+3-3:4 file/open
+3-3:5 find assignmetn03-03.txt, review, and edit it
+3-3:6 Copy and paste code
+Shopper 22 is rated HIGH                                                                                                                                                                                
+
+PL/SQL procedure successfully completed.
+
+3-3:7 verify that shopper has total over $200
+
+SUM(TOTAL)                                                                                                                                                                                              
+----------                                                                                                                                                                                              
+    210.21                                                                                                                                                                                              
+
+3-3:8 Test other shoppers that have a completed order
+Will try shopper 23 first
+
+PL/SQL procedure successfully completed.
+
+Now that it is set to shopper 23, I will re-run the code
+Shopper 23 is rated LOW                                                                                                                                                                                 
+
+PL/SQL procedure successfully completed.
+
+Now I will try shopper 24
+
+PL/SQL procedure successfully completed.
+
+re-run the code
+Shopper 24 is rated LOW                                                                                                                                                                                 
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 3-4 Using searched CASE statements
+****************************************
+****************************************
+3-4:1 open SQL Plus - ok
+3-4:2 set serveroutput on - already is
+3-4:3 create host variable g_shopper, initialze to 22
+
+PL/SQL procedure successfully completed.
+
+3-4:4 change code from 3-3:6 to use a CASE statement
+3-4:5 Execute this code
+Shopper 22 is rated HIGH                                                                                                                                                                                
+
+PL/SQL procedure successfully completed.
+
+3-4:6 verify the results
+
+SUM(TOTAL)                                                                                                                                                                                              
+----------                                                                                                                                                                                              
+    210.21                                                                                                                                                                                              
+
+3-4:7 Test other shoppers
+will test shopper 21
+
+PL/SQL procedure successfully completed.
+
+Shopper 21 is rated LOW                                                                                                                                                                                 
+
+PL/SQL procedure successfully completed.
+
+Now I'll test shopper 23
+
+PL/SQL procedure successfully completed.
+
+Shopper 23 is rated LOW                                                                                                                                                                                 
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 3-5: Using a WHILE loop
+****************************************
+****************************************
+
+PL/SQL procedure successfully completed.
+
+Total Quantity You Can Buy = 3                                                                                                                                                                          
+
+PL/SQL procedure successfully completed.
+
+I will try it with product id of 6 (price $10) and $200 to spend
+
+PL/SQL procedure successfully completed.
+
+Total Quantity You Can Buy = 20                                                                                                                                                                         
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 3-6: Working with IF statements
+****************************************
+****************************************
+Test for Basket 5
+
+PL/SQL procedure successfully completed.
+
+Total Shipping Cost = $7.5                                                                                                                                                                              
+
+PL/SQL procedure successfully completed.
+
+Test for Basket 12
+
+PL/SQL procedure successfully completed.
+
+Total Shipping Cost = $10                                                                                                                                                                               
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 4-1 Using an explicit cursor
+****************************************
+****************************************
+4-1:1 open sql plus - ok
+4-1:2 set serveroutput on - already is
+4-1:3 create a host variable
+
+PL/SQL procedure successfully completed.
+
+4-1:4 find the assignment04-01.txt file
+4-1:5 review the file
+4-1:6 paste file into sql plus
+All items in stock!                                                                                                                                                                                     
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 4-2 Using a CURSOR FOR loop
+****************************************
+****************************************
+4-2:1 open sql plus
+4-2:2 find assignmente04-02.txt
+4-2:3 open and review
+4-2:4 paste into sql plus
+
+PL/SQL procedure successfully completed.
+
+4-2:5 Check results with a query
+
+ IDSHOPPER P SUM(BI.QUANTITY*BI.PRICE)                                                                                                                                                                  
+---------- - -------------------------                                                                                                                                                                  
+        21 B                      55.1                                                                                                                                                                  
+        22 A                    191.59                                                                                                                                                                  
+        23 B                      64.8                                                                                                                                                                  
+        24                        48.9                                                                                                                                                                  
+        25 B                      72.4                                                                                                                                                                  
+        26                          20                                                                                                                                                                  
+        27                        32.4                                                                                                                                                                  
+
+7 rows selected.
+
+****************************************
+****************************************
+Assignment 4-3 Using Implicit Cursors
+****************************************
+****************************************
+
+7 rows updated.
+
+
+3 rows updated.
+
+
+1 row updated.
+
+
+Commit complete.
+
+4                                                                                                                                                                                                       
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 4-4 Using Exception Handling
+****************************************
+****************************************
+4-4:1 open sql plus - ok
+4-4:2 set serveroutput on - already is
+4-4:3 create host variable
+
+PL/SQL procedure successfully completed.
+
+4-4:4 open and review assignment04-04.txt
+4-4:5 copy and paste into sql plus - should create an erro
+DECLARE
+*
+ERROR at line 1:
+ORA-06592: CASE not found while executing CASE statement 
+ORA-06512: at line 4 
+
+
+4-4:6 Review this block and the next block with the exception case
+4-4:7 paste the second block into sql plus
+No tax                                                                                                                                                                                                  
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 4-5 Performing exception handling of predefined errors
+****************************************
+****************************************
+
+PL/SQL procedure successfully completed.
+
+Invalid Shopper ID                                                                                                                                                                                      
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 4-6 Performing exception handling of non-predefined errors
+****************************************
+****************************************
+  ADD CONSTRAINT bitems_qty_ck CHECK (quantity < 20)
+                 *
+ERROR at line 2:
+ORA-02264: name already used by an existing constraint 
+
+
+You cannot have more than 20 items, fool!                                                                                                                                                               
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************

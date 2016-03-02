@@ -1,0 +1,231 @@
+Bryan Mack
+Assignment 2 - Week 3
+Chapter 5 Hands-On Assigments
+****************************************
+****************************************
+Assignment 5-1 Creating a Procedure
+****************************************
+****************************************
+5-1:1 open sql plus - ok
+5-1:2 create the procedure
+5-1:3 run the code
+
+Procedure created.
+
+5-1:4 Invoke the Procedure
+
+PL/SQL procedure successfully completed.
+
+5-1:5 check if it worked
+
+ IDPRODUCT PRODUCTNAME               DESCRIPTION                                                                                          PRODUCTIMAGE                   PRICE SALESTART SALEEND        
+---------- ------------------------- ---------------------------------------------------------------------------------------------------- ------------------------- ---------- --------- ---------      
+ SALEPRICE     ACTIVE   FEATURED FEATUREST FEATUREEN T IDDEPARTMENT      STOCK    ORDERED    REORDER                                                                                                    
+---------- ---------- ---------- --------- --------- - ------------ ---------- ---------- ----------                                                                                                    
+         1 CapressoBar Model #351    CapressoBar Model #388                                                                               capresso.gif                   99.99                          
+                    1                                E            2         23          0         12                                                                                                    
+                                                                                                                                                                                                        
+         2 Capresso Ultima           Coffee and Espresso and Cappuccino Machine. Brews from one espresso to two six ounce cups of coffee  capresso2.gif                 129.99                          
+                    1                                E            2         15          0          9                                                                                                    
+                                                                                                                                                                                                        
+         3 Eileen 4-cup French Press A unique coffeemaker from those proud craftsmen in windy Normandy.                                   frepress.gif                    32.5                          
+                    1                                E            2         30          0         15                                                                                                    
+                                                                                                                                                                                                        
+
+ IDPRODUCT PRODUCTNAME               DESCRIPTION                                                                                          PRODUCTIMAGE                   PRICE SALESTART SALEEND        
+---------- ------------------------- ---------------------------------------------------------------------------------------------------- ------------------------- ---------- --------- ---------      
+ SALEPRICE     ACTIVE   FEATURED FEATUREST FEATUREEN T IDDEPARTMENT      STOCK    ORDERED    REORDER                                                                                                    
+---------- ---------- ---------- --------- --------- - ------------ ---------- ---------- ----------                                                                                                    
+         4 Coffee Grinder            Avoid blade grinders! This mill grinder allows you to choose a fine grind to a coarse grind.         grind.gif                       28.5                          
+                    1                                E            2         26          0         25                                                                                                    
+                                                                                                                                                                                                        
+         5 Sumatra                   Spicy and intense with herbal aroma.                                                                 sumatra.jpg                     10.5                          
+                    1                                C            1         41          0         45                                                                                                    
+                                                                                                                                                                                                        
+         6 Guatamala                 heavy body, spicy twist, aromatic and smokey flavor.                                                 Guatamala.jpg                     10 01-JUN-07 15-JUN-07      
+         8          1                                C            1         42          0         35                                                                                                    
+                                                                                                                                                                                                        
+
+ IDPRODUCT PRODUCTNAME               DESCRIPTION                                                                                          PRODUCTIMAGE                   PRICE SALESTART SALEEND        
+---------- ------------------------- ---------------------------------------------------------------------------------------------------- ------------------------- ---------- --------- ---------      
+ SALEPRICE     ACTIVE   FEATURED FEATUREST FEATUREEN T IDDEPARTMENT      STOCK    ORDERED    REORDER                                                                                                    
+---------- ---------- ---------- --------- --------- - ------------ ---------- ---------- ----------                                                                                                    
+         7 Columbia                  dry, nutty flavor and smoothness                                                                     columbia.jpg                    10.8                          
+                    1                                C            1         61          0         35                                                                                                    
+                                                                                                                                                                                                        
+         8 Brazil                    well-balanced mellow flavor, a medium body with hints of cocoa and a mild, nut-like aftertaste       brazil.jpg                      10.8                          
+                    1                                C            1         53          0         35                                                                                                    
+                                                                                                                                                                                                        
+         9 Ethiopia                  distinctive berry-like flavor and aroma, reminds many of a fruity, memorable wine.                   ethiopia.jpg                      10                          
+                    1                                C            1         54          0         35                                                                                                    
+                                                                                                                                                                                                        
+
+ IDPRODUCT PRODUCTNAME               DESCRIPTION                                                                                          PRODUCTIMAGE                   PRICE SALESTART SALEEND        
+---------- ------------------------- ---------------------------------------------------------------------------------------------------- ------------------------- ---------- --------- ---------      
+ SALEPRICE     ACTIVE   FEATURED FEATUREST FEATUREEN T IDDEPARTMENT      STOCK    ORDERED    REORDER                                                                                                    
+---------- ---------- ---------- --------- --------- - ------------ ---------- ---------- ----------                                                                                                    
+        10 Espresso                  dense, caramel-like sweetness with a soft acidity. Roasted somewhat darker than traditional Italian. espresso.jpg                      10                          
+                    1                                C            1         50         50         50                                                                                                    
+                                                                                                                                                                                                        
+
+10 rows selected.
+
+****************************************
+****************************************
+Assignment 5-2 Using a procedure with IN parameters
+****************************************
+****************************************
+5-2:1 open sqql plus - it is
+5-2:2 create a procedure named PROD_ADD_SP
+5-2:3 Run code to create procedure
+
+Procedure created.
+
+5-2:4 insert values, aka, execute the procedure
+
+PL/SQL procedure successfully completed.
+
+
+PL/SQL procedure successfully completed.
+
+5-2:5 query the table to show that the procedure executed and inserted the values properly
+
+ IDPRODUCT PRODUCTNAME               DESCRIPTION                                                                                          PRODUCTIMAGE                   PRICE SALESTART SALEEND        
+---------- ------------------------- ---------------------------------------------------------------------------------------------------- ------------------------- ---------- --------- ---------      
+ SALEPRICE     ACTIVE   FEATURED FEATUREST FEATUREEN T IDDEPARTMENT      STOCK    ORDERED    REORDER                                                                                                    
+---------- ---------- ---------- --------- --------- - ------------ ---------- ---------- ----------                                                                                                    
+         1 CapressoBar Model #351    CapressoBar Model #388                                                                               capresso.gif                   99.99                          
+                    1                                E            2         23          0         12                                                                                                    
+                                                                                                                                                                                                        
+         2 Capresso Ultima           Coffee and Espresso and Cappuccino Machine. Brews from one espresso to two six ounce cups of coffee  capresso2.gif                 129.99                          
+                    1                                E            2         15          0          9                                                                                                    
+                                                                                                                                                                                                        
+         3 Eileen 4-cup French Press A unique coffeemaker from those proud craftsmen in windy Normandy.                                   frepress.gif                    32.5                          
+                    1                                E            2         30          0         15                                                                                                    
+                                                                                                                                                                                                        
+
+ IDPRODUCT PRODUCTNAME               DESCRIPTION                                                                                          PRODUCTIMAGE                   PRICE SALESTART SALEEND        
+---------- ------------------------- ---------------------------------------------------------------------------------------------------- ------------------------- ---------- --------- ---------      
+ SALEPRICE     ACTIVE   FEATURED FEATUREST FEATUREEN T IDDEPARTMENT      STOCK    ORDERED    REORDER                                                                                                    
+---------- ---------- ---------- --------- --------- - ------------ ---------- ---------- ----------                                                                                                    
+         4 Coffee Grinder            Avoid blade grinders! This mill grinder allows you to choose a fine grind to a coarse grind.         grind.gif                       28.5                          
+                    1                                E            2         26          0         25                                                                                                    
+                                                                                                                                                                                                        
+         5 Sumatra                   Spicy and intense with herbal aroma.                                                                 sumatra.jpg                     10.5                          
+                    1                                C            1         41          0         45                                                                                                    
+                                                                                                                                                                                                        
+         6 Guatamala                 heavy body, spicy twist, aromatic and smokey flavor.                                                 Guatamala.jpg                     10 01-JUN-07 15-JUN-07      
+         8          1                                C            1         42          0         35                                                                                                    
+                                                                                                                                                                                                        
+
+ IDPRODUCT PRODUCTNAME               DESCRIPTION                                                                                          PRODUCTIMAGE                   PRICE SALESTART SALEEND        
+---------- ------------------------- ---------------------------------------------------------------------------------------------------- ------------------------- ---------- --------- ---------      
+ SALEPRICE     ACTIVE   FEATURED FEATUREST FEATUREEN T IDDEPARTMENT      STOCK    ORDERED    REORDER                                                                                                    
+---------- ---------- ---------- --------- --------- - ------------ ---------- ---------- ----------                                                                                                    
+         7 Columbia                  dry, nutty flavor and smoothness                                                                     columbia.jpg                    10.8                          
+                    1                                C            1         61          0         35                                                                                                    
+                                                                                                                                                                                                        
+         8 Brazil                    well-balanced mellow flavor, a medium body with hints of cocoa and a mild, nut-like aftertaste       brazil.jpg                      10.8                          
+                    1                                C            1         53          0         35                                                                                                    
+                                                                                                                                                                                                        
+         9 Ethiopia                  distinctive berry-like flavor and aroma, reminds many of a fruity, memorable wine.                   ethiopia.jpg                      10                          
+                    1                                C            1         54          0         35                                                                                                    
+                                                                                                                                                                                                        
+
+ IDPRODUCT PRODUCTNAME               DESCRIPTION                                                                                          PRODUCTIMAGE                   PRICE SALESTART SALEEND        
+---------- ------------------------- ---------------------------------------------------------------------------------------------------- ------------------------- ---------- --------- ---------      
+ SALEPRICE     ACTIVE   FEATURED FEATUREST FEATUREEN T IDDEPARTMENT      STOCK    ORDERED    REORDER                                                                                                    
+---------- ---------- ---------- --------- --------- - ------------ ---------- ---------- ----------                                                                                                    
+        10 Espresso                  dense, caramel-like sweetness with a soft acidity. Roasted somewhat darker than traditional Italian. espresso.jpg                      10                          
+                    1                                C            1         50         50         50                                                                                                    
+                                                                                                                                                                                                        
+        15 Roasted Blend             Well-balanced mix of roasted beans, a medium body                                                    roasted.jpg                      9.5                          
+                    1                                                                                                                                                                                   
+                                                                                                                                                                                                        
+        16 Roasted Blend2            Well-balanced mix of roasted beans, a medium body2                                                   roasted2.jpg                     9.5                          
+                    1                                                                                                                                                                                   
+                                                                                                                                                                                                        
+
+12 rows selected.
+
+****************************************
+****************************************
+Assignment 5-3 Calculating the tax on an order
+****************************************
+****************************************
+5-3:1 open sql plus - already did that there, hoss
+5-3:3 create host variable
+5-3:2 Create procedure tax_cost_sp
+
+Procedure created.
+
+5-3:4 invoke procedure using $100 and VA
+
+PL/SQL procedure successfully completed.
+
+5-4:5 display the tax amount
+
+     G_TAX                                                                                                                                                                                              
+----------                                                                                                                                                                                              
+       4.5                                                                                                                                                                                              
+
+****************************************
+****************************************
+Assignment 5-4 Updating columns in table
+****************************************
+****************************************
+5-4:1 open sql plus ... ok
+5-4:2 create basket_confirm_sp
+
+Procedure created.
+
+5-4:3 insert initial values into bb_basket
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+5-4:4 execute the procedure
+
+PL/SQL procedure successfully completed.
+
+5-4:5 see if the insert worked
+
+  SUBTOTAL   SHIPPING        TAX      TOTAL ORDERPLACED                                                                                                                                                 
+---------- ---------- ---------- ---------- -----------                                                                                                                                                 
+      64.8          8       1.94      74.74           1                                                                                                                                                 
+
+****************************************
+****************************************
+Assignment 5-5 Updating the status of an order
+****************************************
+****************************************
+
+Procedure created.
+
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************
+Assignment 5-6 Returning order status information
+****************************************
+****************************************
+
+Procedure created.
+
+Status: Backordered                                                                                                                                                                                     
+Status Date: 02-14-2007                                                                                                                                                                                 
+
+PL/SQL procedure successfully completed.
+
+No status available                                                                                                                                                                                     
+
+PL/SQL procedure successfully completed.
+
+****************************************
+****************************************

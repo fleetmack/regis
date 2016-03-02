@@ -1,0 +1,376 @@
+Connected.
+****** Bryan Mack **********
+*** Assignment 1, Part 3 ***
+**** Submitted 2-26-2008  *****
+*****************************************************************************
+*****************************************************************************
+Chapter 11, Number 1
+*****************************************************************************
+Write stored procedure getemployees to show names from ch10employee table
+*****************************************************************************
+
+PL/SQL procedure successfully completed.
+
+
+Procedure created.
+
+Jerry Hanson                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+Amanda Gaines                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Orlando Cortez                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+Susan Cross                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+Joe Howard                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+Edward Black                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+Barney Frost                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+Bert Ernest                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+Skyler McDieter                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+Amanda Tolman                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               
+Mark Perry                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+
+PL/SQL procedure successfully completed.
+
+
+Procedure created.
+
+*****************************************************************************
+*****************************************************************************
+Chapter 11, Number 2
+*****************************************************************************
+Write stored function getinitials
+*****************************************************************************
+
+PL/SQL procedure successfully completed.
+
+
+Warning: Function created with compilation errors.
+
+I cannot get this to compile without errors, have tried for literally hours, no clue what i'm doing wrong
+Here are my errors I can't figure out
+Errors for FUNCTION GETINITIALS:
+
+LINE/COL ERROR                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+-------- -----------------------------------------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+2/1      PLS-00103: Encountered the symbol "AS" when expecting one of the                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+         following:                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+         ( return compress compiled wrapped                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+I ensure you the following cursor works to give the results requested though
+J.H                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+A.G                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+O.C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+S.C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+J.H                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+E.B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+B.F                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+B.E                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+S.M                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+A.T                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+M.P                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+PL/SQL procedure successfully completed.
+
+*****************************************************************************
+*****************************************************************************
+Chapter 11, Number 3
+*****************************************************************************
+Modify num 1 to use function from num 2
+*****************************************************************************
+
+PL/SQL procedure successfully completed.
+
+
+Procedure created.
+
+J.H                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+A.G                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+O.C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+S.C                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+J.H                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+E.B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+B.F                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+B.E                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+S.M                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+A.T                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+M.P                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+PL/SQL procedure successfully completed.
+
+
+Procedure created.
+
+Connected.
+*****************************************************************************
+*****************************************************************************
+Chapter 12, Number 1
+*****************************************************************************
+Create 3 users who each have 10mb of tablespace in user_auto table
+*****************************************************************************
+
+User created.
+
+
+User created.
+
+
+User created.
+
+*****************************************************************************
+create a profile for the new consultants and assign it to 3 new users
+*****************************************************************************
+
+Profile created.
+
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+*****************************************************************************
+*****************************************************************************
+Chapter 12, Number 2
+*****************************************************************************
+Alter the users from number 1, new tablespace, longer idle time, etc.
+*****************************************************************************
+Allow 30 Minute Idle Time for this Profile
+
+Profile altered.
+
+Switch them over to Users tablespace instead of user_auto
+
+User altered.
+
+
+User altered.
+
+
+User altered.
+
+*****************************************************************************
+*****************************************************************************
+Chapter 12, Number 3
+*****************************************************************************
+Drop the three users, while keeping the data of only user cons03
+*****************************************************************************
+
+User dropped.
+
+
+User dropped.
+
+
+User dropped.
+
+*****************************************************************************
+*****************************************************************************
+Chapter 12, Number 4
+*****************************************************************************
+Display the locked and expired users
+*****************************************************************************
+
+USERNAME                       ACCOUNT_STATUS                   LOCK_DATE EXPIRY_DA                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+------------------------------ -------------------------------- --------- ---------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+MDDATA                         EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+DIP                            EXPIRED & LOCKED                 30-AUG-05                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+SCOTT                          EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+TSMSYS                         EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+MDSYS                          EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+ORDSYS                         EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+CTXSYS                         EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+ANONYMOUS                      EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+EXFSYS                         EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+DMSYS                          EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+WMSYS                          EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+SYSMAN                         EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+XDB                            EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+ORDPLUGINS                     EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+SI_INFORMTN_SCHEMA             EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+OLAPSYS                        EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+OUTLN                          EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+MGMT_VIEW                      EXPIRED & LOCKED                 09-JAN-07 09-JAN-07                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+
+18 rows selected.
+
+*****************************************************************************
+*****************************************************************************
+Chapter 12, Number 5
+*****************************************************************************
+set up auditing on the classified_section and classified_ad tables
+*****************************************************************************
+
+Audit succeeded.
+
+
+Audit succeeded.
+
+Query the results of this audit
+
+no rows selected
+
+*****************************************************************************
+*****************************************************************************
+Chapter 12, Number 6
+*****************************************************************************
+WHAT PRIVILEGES CAN BE GIVEN to the following schema objects
+*****************************************************************************
+
+OBJECT_NAME                                                                                                                      OBJECT_TYPE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+-------------------------------------------------------------------------------------------------------------------------------- -------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
+EDITOR_INFO                                                                                                                      TYPE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+CLIENT_VIEW                                                                                                                      VIEW                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+EDITOR_INFO                                                                                                                      TYPE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       
+CUSTOMER                                                                                                                         TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+CUSTOMER_ADDRESS                                                                                                                 TABLE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+
+Customer(Table): Alter, Delete, Debug, Flashback, Index, Insert, References, Select, Update
+Customer_Address(Table): ALTER, DELETE, DEBUG, FLASHBACK, INDEX, INSERT, REFERENCES, SELECT, UPDATE
+Editor_info(Type): EXECUTE
+client_view(view): DELETE, DEBUG, FLASHBACK, INSERT, REFERENCES, SELECT, UPDATE
+*****************************************************************************
+*****************************************************************************
+Chapter 12, Number 7
+*****************************************************************************
+audit a user who may be a threat: NOTE, BOOK SAYS to audit 3 user names
+but the only of the three that we have in this DB is CLASSMATE, so I will only audit that user
+*****************************************************************************
+
+Audit succeeded.
+
+
+Audit succeeded.
+
+Query the audit resutls to show user name, operating system, and terminal
+
+no rows selected
+
+Connected.
+*****************************************************************************
+*****************************************************************************
+Chapter 12, Number 8
+*****************************************************************************
+note: I just created a user studentb as I need him for this question, too
+Create MAKEINDEX role, define it as stated in book, give to studentb.
+*****************************************************************************
+
+Role created.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+
+Grant succeeded.
+
+Grant this role to the studentb user
+
+Grant succeeded.
+
+grant CONNECT to studentb
+
+Grant succeeded.
+
+Log on as studentb and create a view
+Connected.
+CREATE VIEW test_studentb
+AS
+(SELECT customer_id
+FROM classmate.customer)
+FROM classmate.customer)
+               *
+ERROR at line 4:
+ORA-01031: insufficient privileges 
+
+
+I have no idea why this won't work, I have given it the right to create a view
+I can select from the table
+
+no rows selected
+
+I can create a table
+
+Table dropped.
+
+
+Table created.
+
+But I cannot make a view, no idea why, thought the create any view took care of that
+Running out of time, need to turn this in
+*****************************************************************************
+*****************************************************************************
+Chapter 13, Number 1
+*****************************************************************************
+Ensure that statistics are automated for all tables
+*****************************************************************************
+THe fact that the following statement returns TYPICAL shows they are automated
+Connected.
+
+NAME                                 TYPE        VALUE                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
+------------------------------------ ----------- ------------------------------                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+statistics_level                     string      TYPICAL                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
+*****************************************************************************
+*****************************************************************************
+Chapter 13, Number 2
+*****************************************************************************
+Disable automatic stats
+*****************************************************************************
+Connected.
+
+PL/SQL procedure successfully completed.
+
+*****************************************************************************
+*****************************************************************************
+Chapter 13, Number 3
+*****************************************************************************
+enable automatic stats and turn off dynamic sampling at the system level
+*****************************************************************************
+
+PL/SQL procedure successfully completed.
+
+
+System altered.
+
+*****************************************************************************
+*****************************************************************************
+Chapter 13, Number 4
+*****************************************************************************
+Find and resolve a lock on a table in the database using database control
+*****************************************************************************
+Step 1 - I went to the Targets tab (after starting up my db through sql plus)
+Step 2 - I went to the databases tab
+Step 3 - I selected my database from the list
+Step 4 - I logged in as sys as sysdba
+Step 5 - I selected the Performance tab
+Step 6 - I select All Instance Locks
+Step 7 - I would locate my table where the lock is from the list below
+Step 8 - I would select this locked table and click Kill Session up top
+Step 9 - I would ensure Kill Immediate is checked, then click Yes
+Step 10 - I would verify that the lock has been removed.
+*****************************************************************************
+*****************************************************************************
+Chapter 14, Number 1
+*****************************************************************************
+Change warning threshold for active area to 90%
+*****************************************************************************
+Under Targets/Metrics I set the view dropdown box to Metrics with Thresholds
+Then I adjusted the value to 90 percent in the top row of the Warnings Thresholds
+column, which is for archive area used percentage. I then clicked ok and got an
+"Update Succeeded" message.
+*****************************************************************************
+*****************************************************************************
+Chapter 14, Number 2
+*****************************************************************************
+Find where metric collection errors are listed
+*****************************************************************************
+After opening the OEM, Go to Targets and then Databases, click on the Status
+of the database you'd like to see. If they exist, Metrics Collection Errors
+exist in the Outage Type column.

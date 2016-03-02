@@ -1,0 +1,182 @@
+Bryan Mack
+Assignment 2 - Week 4
+Chapter 6 Hands-On Assigments
+****************************************
+****************************************
+Assignment 6-1: Formatting numbers as currency
+****************************************
+****************************************
+6-1:1 open sql plus - ok
+6-1:2 create a function using the below code
+
+Function created.
+
+6-1:3 set serveroutput on - it already is
+6-1:4 test function
+$9,999.55                                                                                                                                                                                               
+
+PL/SQL procedure successfully completed.
+
+6-1:5 test again a different way
+
+DOLLAR_FMT_SF(SHIPPING)                                                                                                                                                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+DOLLAR_FMT_SF(TOTAL)                                                                                                                                                                                    
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+      $5.00                                                                                                                                                                                             
+     $32.40                                                                                                                                                                                             
+                                                                                                                                                                                                        
+
+****************************************
+****************************************
+Assignment 6-2: Calculating total shopper spending
+****************************************
+****************************************
+6-2:1 open sql plus
+6-2:2 develop the tot_purch_sf function
+
+Function created.
+
+6-2:3 test the function
+
+ IDSHOPPER S.FIRSTNAME||''||S.LASTNAME          TO_CHAR(TOT                                                                                                                                             
+---------- ------------------------------------ -----------                                                                                                                                             
+        25 Scott Savid                               $83.66                                                                                                                                             
+        26 Monica Cast                                 $.00                                                                                                                                             
+        22 Margaret Somner                          $210.21                                                                                                                                             
+        21 John Carter                               $66.76                                                                                                                                             
+        23 Kenny Ratman                              $81.75                                                                                                                                             
+        24 Camryn Sonnie                             $61.10                                                                                                                                             
+        27 Pete Parker                               $43.38                                                                                                                                             
+
+7 rows selected.
+
+****************************************
+****************************************
+Assignment 6-3: Calculating the count of orders by a shopper
+****************************************
+****************************************
+6-3:1 open sql plus
+6-3:2 create the function
+
+Function created.
+
+Test the function
+
+ IDSHOPPER NUM_PURCH_SF(IDSHOPPER)                                                                                                                                                                      
+---------- -----------------------                                                                                                                                                                      
+        23                       3                                                                                                                                                                      
+
+****************************************
+****************************************
+Assignment 6-4: Identifying the day of the week for the order date
+****************************************
+****************************************
+6-4:1 open sql plus
+6-4:2 Write the function day_ord_sf
+
+Function created.
+
+6-4:3 create select statement that tests for each basket
+
+  IDBASKET DAY_ORD_SF(DTCREATED                                                                                                                                                                         
+---------- --------------------                                                                                                                                                                         
+         3 TUESDAY                                                                                                                                                                                      
+         4 MONDAY                                                                                                                                                                                       
+         5 MONDAY                                                                                                                                                                                       
+         6 THURSDAY                                                                                                                                                                                     
+         7 FRIDAY                                                                                                                                                                                       
+         8 FRIDAY                                                                                                                                                                                       
+         9 FRIDAY                                                                                                                                                                                       
+        10 WEDNESDAY                                                                                                                                                                                    
+        11 TUESDAY                                                                                                                                                                                      
+        12 MONDAY                                                                                                                                                                                       
+        13 FRIDAY                                                                                                                                                                                       
+
+  IDBASKET DAY_ORD_SF(DTCREATED                                                                                                                                                                         
+---------- --------------------                                                                                                                                                                         
+        14 SATURDAY                                                                                                                                                                                     
+        15 WEDNESDAY                                                                                                                                                                                    
+        16 SATURDAY                                                                                                                                                                                     
+
+14 rows selected.
+
+6-4:3 test using group_by to see what is most popular day
+
+DAY_ORD_SF(BB1.DTCREATED)                                                                                                                                                                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COUNT(DAY_ORD_SF(BB1.DTCREATED))                                                                                                                                                                        
+--------------------------------                                                                                                                                                                        
+THURSDAY                                                                                                                                                                                                
+                               1                                                                                                                                                                        
+                                                                                                                                                                                                        
+SATURDAY                                                                                                                                                                                                
+                               2                                                                                                                                                                        
+                                                                                                                                                                                                        
+TUESDAY                                                                                                                                                                                                 
+                               2                                                                                                                                                                        
+                                                                                                                                                                                                        
+
+DAY_ORD_SF(BB1.DTCREATED)                                                                                                                                                                               
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COUNT(DAY_ORD_SF(BB1.DTCREATED))                                                                                                                                                                        
+--------------------------------                                                                                                                                                                        
+WEDNESDAY                                                                                                                                                                                               
+                               2                                                                                                                                                                        
+                                                                                                                                                                                                        
+MONDAY                                                                                                                                                                                                  
+                               3                                                                                                                                                                        
+                                                                                                                                                                                                        
+FRIDAY                                                                                                                                                                                                  
+                               4                                                                                                                                                                        
+                                                                                                                                                                                                        
+
+6 rows selected.
+
+****************************************
+****************************************
+Assignment 6-5: Calculating days between ordering and shipping
+****************************************
+****************************************
+
+Function created.
+
+test your assignment 6-5 function
+
+  IDBASKET    IDSTAGE DTSTAGE   DTCREATED                                                                                                                                                               
+---------- ---------- --------- ---------                                                                                                                                                               
+         3          5 25-JAN-07 23-JAN-07                                                                                                                                                               
+         3          1 24-JAN-07 23-JAN-07                                                                                                                                                               
+         4          5 15-FEB-07 12-FEB-07                                                                                                                                                               
+         4          1 13-FEB-07 12-FEB-07                                                                                                                                                               
+        12          3           19-FEB-07                                                                                                                                                               
+
+this shows that basket number 3 with a stage 5 should be checked, let's try it out
+CHECK                                                                                                                                                                                                   
+
+PL/SQL procedure successfully completed.
+
+SIDE NOTE: I AM FUMING MAD RIGHT NOW BECAUSe THE $*($#*(^ ROYALS JUST BLEW A 5 RUN LEAD IN THE 9TH INNING FOR THEIR 10TH STRAIGHt LOSS!!!
+****************************************
+****************************************
+Assignment 6-6 Identifying the description of an order status cod
+****************************************
+****************************************
+
+Function created.
+
+Test the function for basketid 4
+
+DTSTAGE                                                                                                                                                                                                 
+---------                                                                                                                                                                                               
+STATUS_DESC_SF(IDSTAGE)                                                                                                                                                                                 
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+13-FEB-07                                                                                                                                                                                               
+Order Submitted                                                                                                                                                                                         
+                                                                                                                                                                                                        
+15-FEB-07                                                                                                                                                                                               
+Shipped                                                                                                                                                                                                 
+                                                                                                                                                                                                        
+
+****************************************
+****************************************

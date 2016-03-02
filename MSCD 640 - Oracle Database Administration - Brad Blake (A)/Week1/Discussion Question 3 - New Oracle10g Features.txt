@@ -1,0 +1,21 @@
+Data Pump is a new feature in Oracle 10g which adds to the current import/export features (which 
+are used to dump data and import dumped data files to and from databases).  This feature is superior
+to 9i's import/export in that it is much faster, and it can be restarted without data loss (in case of an import or
+export failure).  Also, Data Pump can transfer data from server to server without using a dump file.
+
+Flashback is a feature new to 10g which has many uses.  Flashback can be used to see old data
+through a select statement.  Flashback can undrop a table which was dropped by mistake. Also, flashback
+can be used to find which specific changes were made in a transaction within the database.
+
+Automatic Shared Memory Management is also new in Oracle 10g.  This feature automatically finds the
+best size for various memory pools & buffers (such as the shared pool and java pool).  This is 
+beneficial as a DBA doesn't have to manually tune & test to discover the best sizes for these
+parameters.
+
+Transportable tablespaces are another benefit new to 10g.  This allows tablespaes in which the 
+data of a database is stored to be moved to different platforms.  This is helpful if a tablespace need
+to be moved from, say, a Windows 2003 server to a UNIX server.
+
+
+
+http://www.adp-gmbh.ch/ora/misc/10g.html

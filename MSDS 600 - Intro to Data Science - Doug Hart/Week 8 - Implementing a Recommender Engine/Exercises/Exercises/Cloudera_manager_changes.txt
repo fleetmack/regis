@@ -1,0 +1,41 @@
+
+Settings to allow Mahout to run without Java Heap Issues
+
+Start web browser and go to cloudera manager gui http://quickstart.cloudera:7180/cmf/login
+Login as "cloudera/cloudera"
+
+In Cloudera manager take the follow 4 actions:
+
+1. Home->Yarn->Configuration->Gateway Base Group->Resource Managment
+2. Set to default the below properties 
+3. Save Changes
+4. Actions->Deploy Client Configuration
+
+
+Properties to change in #1:
+
+ApplicationMaster Memory
+yarn.app.mapreduce.am.resource.mb
+1 GiB default value
+
+ApplicationMaster Java Maximum Heap Size
+825955249 B default value
+
+Map Task Memory
+mapreduce.map.memory.mb
+1 GiB default value
+
+Reduce Task Memory
+mapreduce.reduce.memory.mb
+1 GiB default value
+
+Map Task Maximum Heap Size
+mapreduce.map.java.opts.max.heap
+825955249 B default value
+
+Reduce Task Maximum Heap Size
+mapreduce.reduce.java.opts.max.heap
+825955249 B default value
+
+Client Java Heap Size in Bytes
+825955249 B default value

@@ -1,0 +1,16 @@
+VARIABLE g_basket VARCHAR2(20)
+BEGIN
+  :g_basket := 10;
+END;
+
+DECLARE
+  lv_card#_txt VARCHAR2(20);
+  lv_cardtype_txt CHAR(1);
+BEGIN
+  SELECT cardnumber, cardtype
+   INTO lv_card#_txt, lv_cardtype_txt
+   FROM bb_basket
+   WHERE idbasket = :g_basket;
+  DBMS_OUTPUT.PUT_LINE('Card #: '||lv_card#_txt);
+  DBMS_OUTPUT.PUT_LINE('Card Type: '||lv_cardtype_txt);
+END;

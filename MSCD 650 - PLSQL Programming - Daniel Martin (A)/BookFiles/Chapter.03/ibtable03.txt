@@ -1,0 +1,19 @@
+DECLARE
+ TYPE type_roast IS TABLE OF NUMBER
+  INDEX BY BINARY_INTEGER;
+ tbl_roast type_roast;
+ lv_tot_num NUMBER := 0;
+ lv_avg_num NUMBER;
+BEGIN
+ IF :g_samp1 IS NOT NULL THEN tbl_roast(1) := :g_samp1; END IF;
+ IF :g_samp2 IS NOT NULL THEN tbl_roast(2) := :g_samp2; END IF;
+ IF :g_samp3 IS NOT NULL THEN tbl_roast(3) := :g_samp3; END IF;
+ IF :g_samp4 IS NOT NULL THEN tbl_roast(4) := :g_samp4; END IF;
+ IF :g_samp5 IS NOT NULL THEN tbl_roast(5) := :g_samp5; END IF;
+ FOR i IN 1..tbl_roast.COUNT LOOP
+  lv_tot_num := lv_tot_num + tbl_roast(i);
+ END LOOP;
+ lv_avg_num := lv_tot_num / tbl_roast.COUNT;
+ DBMS_OUTPUT.PUT_LINE(lv_avg_num);
+END;
+/

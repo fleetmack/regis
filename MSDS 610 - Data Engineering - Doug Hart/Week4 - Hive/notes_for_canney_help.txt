@@ -1,0 +1,40 @@
+I created a test.csv file on the local file system in /home/hadoop and then
+
+created the table in hive with 
+
+CREATE TABLE test (num INT, name STRING, letter STRING, color STRING);
+
+Then to pull the csv in, I ran the following command
+
+LOAD DATA LOCAL INPATH './test.csv' OVERWRITE INTO TABLE test;
+
+then a select statement shows the following
+
+hive> SELECT * FROM test;
+
+OK
+
+NULL NULL NULL NULL
+
+NULL NULL NULL NULL
+
+NULL NULL NULL NULL
+
+Time taken: 3.224 seconds, Fetched: 3 row(s)
+
+I ran a similar test with a data set from work which is much larger, and also received a response to the select statement of all NULL values.  
+
+At least I am doing something consistently wrong. ;)
+
+-Jason
+
+
+
+
+Thank you all so much for the research and information!  
+
+I wanted to share this: http://www.smartdatacollective.com/mtariq/120791/hadoop-toolbox-when-use-what.  It helped me understand maybe why different tools are useful and what they each bring to the table.
+
+Thanks,
+
+Crystal

@@ -1,0 +1,11 @@
+DECLARE
+  lv_card#_txt bb_basket.cardnumber%TYPE;
+  lv_cardtype_txt bb_basket.cardtype%TYPE;
+BEGIN
+  SELECT cardnumber, cardtype
+   INTO lv_card#_txt, lv_cardtype_txt
+   FROM bb_basket
+   WHERE idbasket = :g_basket;
+  DBMS_OUTPUT.PUT_LINE('Card #: '||lv_card#_txt);
+  DBMS_OUTPUT.PUT_LINE('Card Type: '||lv_cardtype_txt);
+END;

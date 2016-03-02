@@ -1,0 +1,8 @@
+CREATE OR REPLACE PACKAGE order_info_pkg IS
+ PROCEDURE basket_info_pp
+  (p_basket IN NUMBER,
+   p_shop OUT NUMBER,
+   p_date OUT DATE,
+   p_name OUT VARCHAR2);
+END;
+/

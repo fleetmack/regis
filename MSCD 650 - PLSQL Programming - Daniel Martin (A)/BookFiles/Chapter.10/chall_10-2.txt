@@ -1,0 +1,21 @@
+---table
+CREATE TABLE new_custs
+  (custname VARCHAR2(25),
+   custemail VARCHAR(30),
+   custstate CHAR(2),
+   custcups NUMBER(2) );
+
+---control file.. saved as cust.ctl
+LOAD DATA 
+INFILE 'C:\new_custs.txt' 
+REPLACE 
+INTO TABLE new_custs 
+FIELDS TERMINATED BY ',' 
+TRAILING NULLCOLS 
+(custname, 
+ custemail, 
+ custstate, 
+ custcups INTEGER EXTERNAL)
+
+----execute
+sqlldr scott/tiger@orcl control=C:\cust.ctl

@@ -1,0 +1,31 @@
+VARIABLE g_first VARCHAR2(15)
+VARIABLE g_last VARCHAR2(20)
+VARIABLE g_email VARCHAR2(25)
+BEGIN
+  :g_first := 'Jeffrey';
+  :g_last := 'Brand';
+  :g_email := 'jbrand@site.com';
+END;
+/
+BEGIN
+ INSERT INTO bb_shopper (idshopper, firstname, lastname, email)
+  VALUES (bb_shopper_seq.NEXTVAL,:g_first,:g_last,:g_email);
+ COMMIT;
+END;
+/
+
+SELECT idshopper, firstname, lastname, email
+  FROM bb_shopper
+  WHERE lastname = 'Brand';
+
+VARIABLE g_id NUMBER
+BEGIN
+  :g_id := 30;
+END;
+/
+BEGIN
+  DELETE FROM bb_shopper
+   WHERE idshopper = :g_id;
+  COMMIT;
+END;
+/

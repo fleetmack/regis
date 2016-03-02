@@ -1,0 +1,20 @@
+CREATE OR REPLACE PROCEDURE prodType_sp
+  (p_type IN OUT VARCHAR2)
+  IS
+BEGIN
+  IF p_type = 'C' THEN
+    p_type := 'Coffee';
+  ELSIF p_type = 'E' THEN
+    p_type := 'Equipment';
+  END IF;
+END;
+
+VARIABLE g_type VARCHAR2(20)
+
+BEGIN
+  :g_type := 'C';
+END;
+
+EXECUTE prodType_sp(:g_type);
+
+PRINT :g_type

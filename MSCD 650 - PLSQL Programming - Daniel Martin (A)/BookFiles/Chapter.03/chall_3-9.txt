@@ -1,0 +1,17 @@
+VARIABLE g_itemid NUMBER
+BEGIN
+  :g_itemid := 15;
+END;
+/
+
+DECLARE
+  rec_baskitem bb_basketitem%ROWTYPE;
+BEGIN
+  SELECT *
+    INTO rec_baskitem
+    FROM bb_basketitem
+    WHERE idbasketitem = :g_itemid;
+  DBMS_OUTPUT.PUT_LINE(rec_baskitem.idproduct);
+  DBMS_OUTPUT.PUT_LINE(rec_baskitem.price);
+END;
+/

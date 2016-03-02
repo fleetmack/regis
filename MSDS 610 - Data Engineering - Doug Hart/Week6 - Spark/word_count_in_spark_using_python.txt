@@ -1,0 +1,17 @@
+Try the word count program again using Python in Spark. 
+
+To run the python interpreter in spark use he following code.
+
+pyspark
+
+from operator import add       # load the addition monoid
+
+f  = sc.textFile("README.md")  #create the textfile.
+
+wc = f.flatMap(lambda  x: x.split(' ')) .map(lambda x: (x, 1)). reduceByKey(add)
+
+#Run flatmap -- note:Python uses the lambda expression instead of the anonymous function in scala.
+
+wc. saveAsTextFile("wc_out")  #save wc_out text file
+
+I had a hard time with this file, someone may want to try it and see if they can run the program. You will need to remove your wc_out file if you ran the word count program in scala. 

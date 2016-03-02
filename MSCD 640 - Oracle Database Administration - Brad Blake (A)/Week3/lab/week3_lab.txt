@@ -1,0 +1,194 @@
+prompt Chapter 5, Question 1
+prompt CREATE TABLESPACE TEST  
+prompt	DATAFILE 'c:\MSCD640\DBMS\APP\ADMIN\DA116\ORADATA\DISK1\test01.dbf' SIZE 5M
+prompt	EXTENT MANAGEMENT AUTOALLOCATE SEGMENT SPACE MANAGEMENT AUTO; 
+
+prompt Chapter 5, Question 2, part 1 - Create Tablespace
+CREATE TABLESPACE HANDS_62
+DATAFILE 'C:\TEMP\hands_62_mack.dbf' SIZE 10M;
+
+prompt Chapter 5, Question 2, Part 2 - Add datafile to tablespace
+ALTER TABLESPACE HANDS_62
+ADD DATAFILE 'C:\TEMP\hands_62_mack_2.dbf' SIZE 5M;
+
+prompt Chapter 5, Question 2, Part 3 - Query data dictionary to display total available space in tablespace
+select tablespace_name, (sum(bytes)/(1024*1024)) "Free Space (MB)"
+from dba_free_space
+where tablespace_name='HANDS_62'
+group by tablespace_name;
+
+prompt Chapter 5, Question 2, Part 4 - Make tablespace read only and take offline
+ALTER TABLESPACE HANDS_62 READ ONLY;
+ALTER TABLESPACE HANDS_62 OFFLINE;
+
+prompt Chapter 5, Question 2, Part 5 - Drop tablespace
+DROP TABLESPACE HANDS_62
+INCLUDING CONTENTS
+AND DATAFILES;
+
+prompt Chapter 5, Question 3, Part 1 - Create tablespace using OMF
+CREATE TABLESPACE HANDS62;
+
+prompt Chapter 5, Question 3, Part 2 - Add datafile to tablespace
+ALTER TABLESPACE HANDS_62
+ADD DATAFILE 'C:\TEMP\hands_62_mack_3.dbf' SIZE 5M;
+
+prompt Chapter 5, Question 3, Part 3 - Query data dictionary to display total available space in tablespace
+select tablespace_name, (sum(bytes)/(1024*1024)) "Free Space (MB)"
+from dba_free_space
+where tablespace_name='HANDS_62'
+group by tablespace_name;
+
+prompt Chapter 5, Question 3, Part 4 - Make tablespace read only and take offline
+ALTER TABLESPACE HANDS_62 READ ONLY;
+ALTER TABLESPACE HANDS_62 OFFLINE;
+
+prompt Chapter 5, Question 3, Part 5 - Drop tablespace
+DROP TABLESPACE HANDS_62;
+
+prompt Chapter 5, Question 4
+prompt It is difficult for a DBA to manage a tablespace when the storage within tables are constantly being increased.  By simply taking
+prompt one field from a value of char(50) to char(100), the size of that field has doubled.  When the size of fields increase,
+prompt the table can fill its MAXEXTENTS limit quickly, as when that is reached the table (or any other schema object) cannot
+prompt continue to grow.  Likewise, when a tablespace reaches its capacity, productivity comes to a halt until the database can be 
+prompt increased in size.  I would recommend that the tablespace be modified with the parameters of MAXEXTENTS UNLIMITED and 
+prompt AUTOEXTEND ON such that the tables can grow to an unlimited extent size, and so that the tablespace can increase in size
+prompt without bringing the database's productivity to a halt.
+
+
+prompt Chapter 5, Question 5
+prompt An extent is the smallest group of data that can be entered or retrieved from a database's memory.  A table, 
+prompt (which is the largest out of the extent, segment, and table) is a schema object which has one segment per partition 
+prompt it is stored on.  If a table is only stored on one partition, it only has one segment. A
+prompt segment is made up of as many extents as it takes in order to fulfull the table's storage needs.
+
+prompt Chapter 5, Question 6, Part 1
+prompt Add identical data file
+prompt ALTER TABLESPACE CUSTOMERSERVICES
+prompt ADD DATAFILE 'C:\temp\cust_serv02.dbf' SIZE50M
+prompt AUTOEXTEND OFF;
+
+prompt Chapter 5, Question 6, Part 2
+prompt make first data file 25M
+prompt ALTER DATABASE DATAFILE 'c:\temp_cust_serv01.dbf'
+prompt RESIZE 25M;
+
+prompt Chapter 5, Question 6, Part 3
+prompt Make the second datafile expandable forever
+prompt ALTER DATABASE DATAFILE 'C:\temp\cust_serv02.dbf' AUTOEXTEND ON;
+prompt ALTER DATABASE DATAFILE 'C:\temp\cust_serv02.dbf' MAXEXTENTS UNLIMITED;
+
+prompt I think a benefit of having an unlimited datafile would be production.  When a datafile is filled, the time doesn't
+prompt need to be taken to enlarge the datafile as autoextend takes care of this for you.  I would think a con of this would be
+prompt that the tablespace could grow to fill a hard disk and cause a database crash.
+
+prompt Chapter 5, Question 7
+CREATE TEMPORARY TABLESPACE MACK
+TEMPFILE SIZE 20M;
+
+
+set linesize 750
+column "Tablespace Name" FORMAT a15
+SELECT tb.name "Tablespace Name", 
+       tp.bytes/(1024*1024) "Size (MB)",
+       tp.name "Datafile Name"
+  FROM V$TABLESPACE	tb,
+       V$TEMPFILE	tp
+ WHERE tb.ts#	 = tp.ts#
+   AND tb.name = 'MACK';
+
+CLEAR COLUMNS;
+
+
+
+prompt Chapter 5, Question 8
+prompt Query to find your current temporary tablespace when logged on as sys
+SELECT tablespace_name
+FROM dba_tablespaces
+WHERE contents='TEMPORARY'
+AND status='ONLINE';
+
+prompt Query to show current space used and free space in all temporary tablespaces
+SELECT (SUM(bytes_used)/(1024*1024)) "Used Space (MB)",
+       (SUM(bytes_free)/(1024*1024)) "Free Space (MB)"
+  FROM v$temp_space_header;
+
+prompt Chapter 5, Question 9
+prompt display the undo-related initialization parameters
+SHOW PARAMETERS UNDO
+
+prompt Change the retention time to 10 minutes
+ALTER SYSTEM SET UNDO_RETENTION=600;
+
+prompt Write a Query using DBA_UNDO_EXTENTS to summarize the used blocks in teh undo tablespace
+select status, sum(blocks)
+from dba_undo_extents
+group by status;
+
+
+
+
+
+
+prompt Chapter 6, Question 1, Part a
+prompt Find 2 performance views of redo log files
+prompt They are v$log and v$logfile
+
+prompt Chapter 6, Question 1, Part b
+prompt QUery to display redo log groups excluding member details
+SELECT * FROM v$log;
+
+prompt Chapter 6, Question 1, Part c
+prompt Query to display redo log members as well as groups
+SELECT * FROM v$logfile;
+
+prompt Chapter 6, Question 1, Part d
+prompt Query to link all redo log members with their respective groups
+SELECT group#, member FROM v$logfile;
+
+prompt Chapter 6, Question 2
+SELECT object_name, object_type
+FROM dba_objects
+WHERE object_type IN ('TABLE','VIEW')
+  AND OWNER='CLASSMATE'
+ORDER BY object_name;
+
+prompt Chapter 6, Question 3, Part a
+prompt Find CLASSMATE user, CLIENT table, CLIENT_ID values between 1000 and 2000
+SELECT client_id
+  FROM classmate.client
+ WHERE client_id BETWEEN 1000 and 2000;
+
+prompt Chapter 6, Question 3, Part b
+prompt Find all CLASSMATE user, CLIENT table rows, where no 1-800 numbers are included
+prompt NOTE: All values in the table are 800-, not 1-800- like the book suggests
+SELECT *
+  FROM classmate.client
+ WHERE SUBSTR(contact_phone,1,3) <> 800;
+
+prompt Chapter 6, Question 3, Part C
+prompt Find all CLASSMATE.Client rows minus the last names Brook, Storm, and Moore
+SELECT *
+  FROM classmate.client
+ WHERE Last_Name NOT IN ('Brook','Storm','Moore');
+
+prompt Chapter 6, Question 3, Part D
+prompt Find all datafiles that exist as tablespaces using V$ performance views.
+prompt Use a single subquery and a where clause with only an expression on the left of the where clause
+SELECT name
+  FROM v$datafile	dt
+ WHERE dt.ts# IN
+	(SELECT tb.ts#
+           FROM v$tablespace	tb
+          WHERE tb.ts# = dt.ts#);
+
+prompt Chapter 6, Question 4
+prompt Find First 10 rows in teh ALL_OBJECTS view
+SELECT * FROM all_objects
+WHERE rownum <= 10;
+
+prompt Chapter 6, Question 5
+prompt Smae as #4 but sort by object_name within the owner column
+SELECT * FROM all_objects
+WHERE rownum <= 10
+ORDER BY owner, object_name;

@@ -1,0 +1,34 @@
+Below are steps to spool your output for the hands-on assignments:
+
+1. Download the files from course.com
+
+2. After logging onto Oracle via Citrix, create the database schema.
+
+You can substitute the v: drive to reach your c: drive.
+
+Ex: I downloaded the files to the following location on my hard drive:
+
+C:\Keep\Teaching\MCT614_Materials\DataFiles\JustLeeDatabase
+
+If you have any spaces in the file path, you must include quotes around the text string. The @ symbol will execute the script.
+
+@'v:\Keep\Teaching\MCT614_Materials\DataFiles\JustLeeDatabase\bookscript.sql'
+
+3. Spool the file:
+
+spool v:\Keep\Teaching\MCT614_Materials\DataFiles\JustLeeDatabase\martinch2.txt
+
+The file martinch2.txt will be created.
+
+4. Enter your SQL commands to solve the hands-on problem.
+
+5. Type Spool off - this turns spooling off.
+
+6. Open the text file and edit if necessary (to remove any errors).
+
+When you are in SQL*Plus, you can type edit to open the default editor (in most cases notepad). Then, type in SQL and close and save it. The command will be put in the SQL buffer and output to the screen. Type / to execute the SQL statement.
+
+Let me know if you have any questions.
+
+Regards,
+Dan 

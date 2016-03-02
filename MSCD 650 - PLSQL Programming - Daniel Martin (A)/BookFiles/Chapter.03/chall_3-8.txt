@@ -1,0 +1,19 @@
+BEGIN
+  :g_basket := 10;
+END;
+
+DECLARE
+  lv_card#_txt VARCHAR2(20);
+  lv_cardtype_txt CHAR(1);
+  TYPE type_card IS RECORD (
+    card# bb_basket.cardnumber%TYPE,
+    type bb_basket.cardtype%TYPE);
+  rec_card type_card;
+BEGIN
+  SELECT cardnumber, cardtype
+   INTO rec_card
+   FROM bb_basket
+   WHERE idbasket = :g_basket;
+  DBMS_OUTPUT.PUT_LINE('Card #: '||rec_card.card#);
+  DBMS_OUTPUT.PUT_LINE('Card Type: '||rec_card.type);
+END;

@@ -1,0 +1,7 @@
+CREATE OR REPLACE TRIGGER logon_trg
+  AFTER LOGON ON SCHEMA 
+ BEGIN
+   INSERT INTO bb_audit_logon
+     VALUES (USER, SYSDATE);
+ END;
+/

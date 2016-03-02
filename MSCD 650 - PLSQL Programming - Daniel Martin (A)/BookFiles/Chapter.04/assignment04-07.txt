@@ -1,0 +1,6 @@
+BEGIN
+  UPDATE bb_basketitem
+   SET idBasket = :g_new
+   WHERE idBasket = :g_old;
+END;
+/

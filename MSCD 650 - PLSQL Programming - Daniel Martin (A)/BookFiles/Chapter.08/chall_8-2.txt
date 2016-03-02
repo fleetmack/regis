@@ -1,0 +1,11 @@
+---Assumes SCOTT schema-----
+
+EXECUTE deptree_fill('FUNCTION','SCOTT','MEMFMT1_SF');
+SELECT nested_level, name, type, seq#
+ FROM deptree
+ ORDER BY seq#;
+
+EXECUTE deptree_fill('TABLE','SCOTT','BB_SHOPPER');
+SELECT nested_level, name, type, seq#
+ FROM deptree
+ ORDER BY seq#;

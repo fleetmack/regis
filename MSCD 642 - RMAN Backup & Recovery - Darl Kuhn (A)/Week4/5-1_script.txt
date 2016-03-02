@@ -1,0 +1,14 @@
+run
+{
+configure retention policy to 1 redundancy 2;
+configure backup optimization off;
+configure default device type to disk;
+configure controlfile autobackup on;
+configure controlfile autobackup format for device type disk to
+'G:\cfb';
+configure device type disk parallelism 2;
+configure datafile backup copies for device type disk to 1;
+configure archivelog backup copies for device type disk to 1;
+configure maxsetsize to unlimited;
+confiigure snapshot controlfile name to 'G:\cfb\snapf_prod11.f';
+}
